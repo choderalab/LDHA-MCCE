@@ -1,0 +1,43 @@
+COMMAND:
+ C:\Program Files\Schrodinger2015-3\epik-v3.3\bin\Windows-x64\epik_app -imae C:\Users\rustenba\AppData\Local\Temp\tmp4mfcv6jz\Alpha-ketoglutaric acid-input.mae -omae C:\Users\rustenba\Documents\Visual Studio 2015\Projects\CTProject\CTProject\mcce-charges\epik_data\output_7.0\Alpha-ketoglutaric acid\Alpha-ketoglutaric acid-epik.mae -ms 100 -ph 7.4 -nt -p 4.5399929762484854e-05 -pKa_atom
+SCHRODINGER: C:\Program Files\Schrodinger2015-3
+
+Running Epik version     3.3013
+Epik. Copyright Schrodinger, LLC. All rights reserved.
+
+Input file name:                        C:\Users\rustenba\AppData\Local\Temp\tmp4mfcv6jz\Alpha-ketoglutaric acid-input.mae
+Output file name:                       C:\Users\rustenba\Documents\Visual Studio 2015\Projects\CTProject\CTProject\mcce-charges\epik_data\output_7.0\Alpha-ketoglutaric acid\Alpha-ketoglutaric acid-epik.mae
+Maximum number of states set to: 100
+Structure adjustment calculation requested.
+  Target pH set to 7.400
+Minimum probability set to 4.539993e-005
+reporting for specific atoms turned on (pKa_atom)
+
+Adjusting structures for pH 7.400000e+000 and minimum probability 4.539993e-005
+Solvent model name:                     water
+Jobcontrol is not being used for this specific Epik calculation.
+---------------------------
+Processing Input Structure #1
+        Title: 5-hydroxy-2,5-dioxo-pentanoate
+                                              Calculated pKas
+                                                 Conjugate
+                                          Atom   Acid/Base  pKa
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 1
+                                             5   Conj_Base  4.28
+                                             9   Conj_Base  2.28
+ pKa penalty:                                 0.00 kcal/mol
+     Charging penalty:                        0.00 kcal/mol
+     Neutralization penalty:                  0.00 kcal/mol
+ Overall Penalty (tautomerization included):  0.00 kcal/mol
+ Total Charge: -2
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 2
+                                            15   Conj_Acid  4.28
+                                             9   Conj_Base  1.95
+ pKa penalty:                                 4.26 kcal/mol
+     Charging penalty:                        0.00 kcal/mol
+     Neutralization penalty:                  4.26 kcal/mol
+ Overall Penalty (tautomerization included):  4.55 kcal/mol
+ Total Charge: -1
+---------------------------

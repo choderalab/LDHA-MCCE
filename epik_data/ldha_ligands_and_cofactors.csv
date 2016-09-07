@@ -1,0 +1,8 @@
+Molecule,SMILES,Chem_ID
+L-2-hydroxyglutaric acid,C(CC(=O)O)[C@@H](C(=O)O)O,L2H
+D-2-hydoxyglutaric acid,C(CC(=O)O)[C@H](C(=O)O)O,D2H
+L-Lactate,C[C@@H](C(=O)[O-])O,LAC
+Pyruvate,CC(=O)C(=O)[O-],PYR
+Alpha-ketoglutaric acid,C(CC(=O)O)C(=O)C(=O)O,AKG
+NADH,c1nc(c2c(n1)n(cn2)[C@H]3[C@@H]([C@@H]([C@H](O3)CO[P@](=O)(O)O[P@](=O)(O)OC[C@@H]4[C@H]([C@H]([C@@H](O4)N5C=CCC(=C5)C(=O)N)O)O)O)O)N,NAH
+NAD+,c1cc(c[n+](c1)[C@H]2[C@@H]([C@@H]([C@H](O2)CO[P@](=O)([O-])O[P@@](=O)(O)OC[C@@H]3[C@H]([C@H]([C@@H](O3)n4cnc5c4ncnc5N)O)O)O)O)C(=O)N,NDP

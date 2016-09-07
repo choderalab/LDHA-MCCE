@@ -1,0 +1,112 @@
+5-hydroxy-2,5-dioxo-pentanoate
+                    3D
+ Structure written by MMmdl.
+ 14 13  0  0  1  0            999 V2000
+   -0.2145   -0.8190    0.2489 C   0  0  0  0  0  0
+    0.4195    0.1908   -0.6982 C   0  0  0  0  0  0
+    0.2721   -0.2221   -2.1438 C   0  0  0  0  0  0
+   -0.2834   -1.2379   -2.5383 O   0  0  0  0  0  0
+    0.8381    0.6870   -2.9802 O   0  5  0  0  0  0
+   -0.0511   -0.3797    1.6794 C   0  0  0  0  0  0
+    0.5156    0.6501    2.0218 O   0  0  0  0  0  0
+   -0.6167   -1.1817    2.8169 C   0  0  0  0  0  0
+   -0.4402   -0.7005    3.9743 O   0  5  0  0  0  0
+   -1.2079   -2.2516    2.4922 O   0  0  0  0  0  0
+   -1.2876   -0.9088    0.0243 H   0  0  0  0  0  0
+    0.2704   -1.7978    0.1194 H   0  0  0  0  0  0
+   -0.0654    1.1696   -0.5687 H   0  0  0  0  0  0
+    1.4926    0.2807   -0.4736 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  6  1  0  0  0
+  1 11  1  0  0  0
+  1 12  1  0  0  0
+  2  3  1  0  0  0
+  2 13  1  0  0  0
+  2 14  1  0  0  0
+  3  4  2  0  0  0
+  3  5  1  0  0  0
+  6  7  2  0  0  0
+  6  8  1  0  0  0
+  8  9  1  0  0  0
+  8 10  2  0  0  0
+M  CHG  2   5  -1   9  -1
+M  END
+> <s_m_source_file>
+C:\Users\rustenba\Documents\Visual Studio 2015\Projects\CTProject\CTProject\mcce-charges\epik_data\output_6.6\Alpha-ketoglutaric acid\Alpha-ketoglutaric acid-input.mol2
+
+> <i_m_source_file_index>
+1
+
+> <r_epik_Ionization_Penalty>
+  0.0005
+
+> <r_epik_Ionization_Penalty_Charging>
+  0.0005
+
+> <r_epik_Ionization_Penalty_Neutral>
+  0.0000
+
+> <r_epik_State_Penalty>
+  0.0003
+
+> <i_epik_Tot_Q>
+-2
+
+$$$$
+5-hydroxy-2,5-dioxo-pentanoate
+                    3D
+ Structure written by MMmdl.
+ 15 14  0  0  1  0            999 V2000
+   -0.2145   -0.8190    0.2489 C   0  0  0  0  0  0
+    0.4195    0.1908   -0.6982 C   0  0  0  0  0  0
+    0.2721   -0.2221   -2.1438 C   0  0  0  0  0  0
+   -0.2834   -1.2379   -2.5383 O   0  0  0  0  0  0
+    0.8381    0.6870   -2.9802 O   0  0  0  0  0  0
+   -0.0511   -0.3797    1.6794 C   0  0  0  0  0  0
+    0.5156    0.6501    2.0218 O   0  0  0  0  0  0
+   -0.6167   -1.1817    2.8169 C   0  0  0  0  0  0
+   -0.4402   -0.7005    3.9743 O   0  5  0  0  0  0
+   -1.2079   -2.2516    2.4922 O   0  0  0  0  0  0
+   -1.2876   -0.9088    0.0243 H   0  0  0  0  0  0
+    0.2704   -1.7978    0.1194 H   0  0  0  0  0  0
+   -0.0654    1.1696   -0.5687 H   0  0  0  0  0  0
+    1.4926    0.2807   -0.4736 H   0  0  0  0  0  0
+    0.8115    0.5249   -4.0679 H   0  0  0  0  0  0
+  1  2  1  0  0  0
+  1  6  1  0  0  0
+  1 11  1  0  0  0
+  1 12  1  0  0  0
+  2  3  1  0  0  0
+  2 13  1  0  0  0
+  2 14  1  0  0  0
+  3  4  2  0  0  0
+  3  5  1  0  0  0
+  5 15  1  0  0  0
+  6  7  2  0  0  0
+  6  8  1  0  0  0
+  8  9  1  0  0  0
+  8 10  2  0  0  0
+M  CHG  1   9  -1
+M  END
+> <s_m_source_file>
+C:\Users\rustenba\Documents\Visual Studio 2015\Projects\CTProject\CTProject\mcce-charges\epik_data\output_6.6\Alpha-ketoglutaric acid\Alpha-ketoglutaric acid-input.mol2
+
+> <i_m_source_file_index>
+1
+
+> <r_epik_Ionization_Penalty>
+  4.2596
+
+> <r_epik_Ionization_Penalty_Charging>
+  0.0000
+
+> <r_epik_Ionization_Penalty_Neutral>
+  4.2596
+
+> <r_epik_State_Penalty>
+  4.5452
+
+> <i_epik_Tot_Q>
+-1
+
+$$$$

@@ -1,0 +1,169 @@
+COMMAND:
+ C:\Program Files\Schrodinger2015-3\epik-v3.3\bin\Windows-x64\epik_app -imae C:\Users\rustenba\AppData\Local\Temp\tmpvdzunq7m\NADH-input.mae -omae C:\Users\rustenba\Documents\Visual Studio 2015\Projects\CTProject\CTProject\mcce-charges\epik_data\output_6.6\NADH\NADH-epik.mae -ms 100 -ph 7.4 -nt -p 4.5399929762484854e-05 -pKa_atom
+SCHRODINGER: C:\Program Files\Schrodinger2015-3
+
+Running Epik version     3.3013
+Epik. Copyright Schrodinger, LLC. All rights reserved.
+
+Input file name:                        C:\Users\rustenba\AppData\Local\Temp\tmpvdzunq7m\NADH-input.mae
+Output file name:                       C:\Users\rustenba\Documents\Visual Studio 2015\Projects\CTProject\CTProject\mcce-charges\epik_data\output_6.6\NADH\NADH-epik.mae
+Maximum number of states set to: 100
+Structure adjustment calculation requested.
+  Target pH set to 7.400
+Minimum probability set to 4.539993e-005
+reporting for specific atoms turned on (pKa_atom)
+
+Adjusting structures for pH 7.400000e+000 and minimum probability 4.539993e-005
+Solvent model name:                     water
+Jobcontrol is not being used for this specific Epik calculation.
+---------------------------
+Processing Input Structure #1
+        Title: [[5-(6-aminopurin-9-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methoxy-oxido-phosphoryl] [5-(3-carbamoyl-4~{H}-pyridin-1-yl)-3,4-dihydroxy-tetrahydrofuran-2-yl]methyl phosphate
+FATAL mmlewis error: Problems remain with the following atoms:
+mmlewis error:  30 43
+WARNING mmtaut:fix_using_mmlewis: Problem in mmlewis_apply
+WARNING mmtaut_fix_lewis_structures: Problem in fix_using_mmlewis
+FATAL mmlewis error: Problems remain with the following atoms:
+mmlewis error:  30 43
+WARNING mmtaut:fix_using_mmlewis: Problem in mmlewis_apply
+WARNING mmtaut_fix_lewis_structures: Problem in fix_using_mmlewis
+FATAL mmlewis error: Problems remain with the following atoms:
+mmlewis error:  30 43
+WARNING mmtaut:fix_using_mmlewis: Problem in mmlewis_apply
+WARNING mmtaut_fix_lewis_structures: Problem in fix_using_mmlewis
+FATAL mmlewis error: Problems remain with the following atoms:
+mmlewis error:  30 43
+WARNING mmtaut:fix_using_mmlewis: Problem in mmlewis_apply
+WARNING mmtaut_fix_lewis_structures: Problem in fix_using_mmlewis
+                                              Calculated pKas
+                                                 Conjugate
+                                          Atom   Acid/Base  pKa
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 1
+                                            45   Conj_Acid 11.94
+                                            46   Conj_Acid 11.13
+                                            47   Conj_Acid 12.16
+                                            48   Conj_Acid 11.73
+                                            70   Conj_Acid  9.90
+                                            71   Conj_Acid  9.90
+                                            38   Conj_Base -2.54
+                                            40   Conj_Base  2.93
+                                             5   Conj_Base  3.98
+                                            20   Conj_Base -0.40
+                                            68   Conj_Acid 13.05
+                                            69   Conj_Acid 13.05
+                                            14   Conj_Base -2.35
+                                            15   Conj_Base -2.96
+                                            22   Conj_Base -2.18
+                                            23   Conj_Base -2.51
+                                            33   Conj_Base -1.53
+                                            19   Conj_Base -0.10
+                                            42   Conj_Base -0.99
+ pKa penalty:                                 0.00 kcal/mol
+     Charging penalty:                        0.00 kcal/mol
+     Neutralization penalty:                  0.00 kcal/mol
+ Overall Penalty (tautomerization included):  0.00 kcal/mol
+ Total Charge: 0
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 2
+                                            45   Conj_Acid 11.94
+                                            46   Conj_Acid 11.38
+                                            47   Conj_Acid 12.16
+                                            48   Conj_Acid 11.84
+                                            41   Conj_Base  9.90
+                                            38   Conj_Base -2.54
+                                            40   Conj_Base  2.93
+                                             5   Conj_Base  3.98
+                                            20   Conj_Base -0.40
+                                            68   Conj_Acid 13.05
+                                            69   Conj_Acid 13.05
+                                            14   Conj_Base -2.35
+                                            15   Conj_Base -2.77
+                                            22   Conj_Base -2.18
+                                            23   Conj_Base -2.42
+                                            33   Conj_Base -0.60
+                                            19   Conj_Base  0.54
+ pKa penalty:                                 3.42 kcal/mol
+     Charging penalty:                        3.42 kcal/mol
+     Neutralization penalty:                  0.00 kcal/mol
+ Overall Penalty (tautomerization included):  3.65 kcal/mol
+ Total Charge: -1
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 3
+                                            45   Conj_Acid 11.94
+                                            46   Conj_Acid 11.38
+                                            47   Conj_Acid 12.16
+                                            48   Conj_Acid 11.84
+                                            41   Conj_Base  9.90
+                                            38   Conj_Base -2.54
+                                            40   Conj_Base  2.93
+                                             5   Conj_Base  3.98
+                                            20   Conj_Base -0.40
+                                            68   Conj_Acid 13.05
+                                            69   Conj_Acid 13.05
+                                            14   Conj_Base -2.35
+                                            15   Conj_Base -2.77
+                                            22   Conj_Base -2.18
+                                            23   Conj_Base -2.42
+                                            33   Conj_Base -0.60
+                                            19   Conj_Base  0.54
+ pKa penalty:                                 3.42 kcal/mol
+     Charging penalty:                        3.42 kcal/mol
+     Neutralization penalty:                  0.00 kcal/mol
+ Overall Penalty (tautomerization included):  3.65 kcal/mol
+ Total Charge: -1
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 4
+                                            45   Conj_Acid 11.94
+                                            46   Conj_Acid 11.13
+                                            47   Conj_Acid 12.16
+                                            48   Conj_Acid 11.73
+                                            70   Conj_Acid  9.90
+                                            71   Conj_Acid  9.90
+                                            40   Conj_Base  2.46
+                                            72   Conj_Acid  3.98
+                                            68   Conj_Acid  8.41
+                                            69   Conj_Acid  8.41
+                                            14   Conj_Base -2.35
+                                            15   Conj_Base -2.96
+                                            22   Conj_Base -2.18
+                                            23   Conj_Base -2.51
+                                            33   Conj_Base -1.53
+                                            19   Conj_Base -0.10
+                                            42   Conj_Base -0.99
+ pKa penalty:                                 4.73 kcal/mol
+     Charging penalty:                        4.67 kcal/mol
+     Neutralization penalty:                  0.06 kcal/mol
+ Overall Penalty (tautomerization included):  4.98 kcal/mol
+ Total Charge: 1
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+. . . . . . . . . . . . . . . . . . . . . . .
+Variation: 5
+                                            45   Conj_Acid 11.94
+                                            46   Conj_Acid 12.16
+                                            47   Conj_Acid 14.79
+                                            15   Conj_Base 11.13
+                                            69   Conj_Acid 10.13
+                                            70   Conj_Acid 10.13
+                                            38   Conj_Base -2.54
+                                            40   Conj_Base  2.93
+                                             5   Conj_Base  3.98
+                                            20   Conj_Base -0.40
+                                            67   Conj_Acid 13.05
+                                            68   Conj_Acid 13.05
+                                            14   Conj_Base -2.35
+                                            22   Conj_Base -2.18
+                                            23   Conj_Base -0.17
+                                            33   Conj_Base -0.79
+                                            19   Conj_Base  0.12
+                                            42   Conj_Base -0.71
+ pKa penalty:                                 5.09 kcal/mol
+     Charging penalty:                        5.09 kcal/mol
+     Neutralization penalty:                  0.00 kcal/mol
+ Overall Penalty (tautomerization included):  5.43 kcal/mol
+ Total Charge: -1
+ Chemistry Notes:   This compound has an imine and may undergo hydrolysis. This compound contains an acetal/aminal-like group ( X-CH(R)-Y where X, Y are N, S, or O) that may be acid/base labile, releasing an aldehyde.
+---------------------------
