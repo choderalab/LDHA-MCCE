@@ -1,0 +1,1599 @@
+####################################
+# Topology File for:
+# param/NAI.tpl
+# NADH
+#
+# Created on: 2016-09-11
+#
+# Created with: make_tpl_1.py by Salah Salah
+####################################
+
+# neural always starts with 0
+# numberical value means the charge is 1
+# alphabet lower case means the charge is 2
+# alphabet upper case means the charge is 3
+# nothing for charge of 4, this code will not work
+
+CONFLIST NAI        NAIBK NAI-a NAI-A NAI-B NAI-1 NAI-C NAIDM 
+
+NATOM    NAIBK      0
+NATOM    NAI-a      71
+NATOM    NAI-A      70
+NATOM    NAI-B      70
+NATOM    NAI-1      72
+NATOM    NAI-C      70
+NATOM    NAIDM      0
+
+IATOM    NAI-a    PA    0
+IATOM    NAI-a    PN    1
+IATOM    NAI-a   C1B    2
+IATOM    NAI-a   C1D    3
+IATOM    NAI-a   N1A    4
+IATOM    NAI-a   N1N    5
+IATOM    NAI-a   O1A    6
+IATOM    NAI-a   O1N    7
+IATOM    NAI-a   C2A    8
+IATOM    NAI-a   C2B    9
+IATOM    NAI-a   C2D   10
+IATOM    NAI-a   C2N   11
+IATOM    NAI-a   O2A   12
+IATOM    NAI-a   O2B   13
+IATOM    NAI-a   O2D   14
+IATOM    NAI-a   O2N   15
+IATOM    NAI-a   C3B   16
+IATOM    NAI-a   C3D   17
+IATOM    NAI-a   C3N   18
+IATOM    NAI-a   N3A   19
+IATOM    NAI-a    O3   20
+IATOM    NAI-a   O3B   21
+IATOM    NAI-a   O3D   22
+IATOM    NAI-a   C4A   23
+IATOM    NAI-a   C4B   24
+IATOM    NAI-a   C4D   25
+IATOM    NAI-a   C4N   26
+IATOM    NAI-a   O4B   27
+IATOM    NAI-a   O4D   28
+IATOM    NAI-a   C5A   29
+IATOM    NAI-a   C5B   30
+IATOM    NAI-a   C5D   31
+IATOM    NAI-a   C5N   32
+IATOM    NAI-a   O5B   33
+IATOM    NAI-a   O5D   34
+IATOM    NAI-a   C6A   35
+IATOM    NAI-a   C6N   36
+IATOM    NAI-a   N6A   37
+IATOM    NAI-a   C7N   38
+IATOM    NAI-a   N7A   39
+IATOM    NAI-a   N7N   40
+IATOM    NAI-a   O7N   41
+IATOM    NAI-a   C8A   42
+IATOM    NAI-a   N9A   43
+IATOM    NAI-a  HO2B   44
+IATOM    NAI-a  HO2D   45
+IATOM    NAI-a  HO3B   46
+IATOM    NAI-a  HO3D   47
+IATOM    NAI-a   H1B   48
+IATOM    NAI-a   H1D   49
+IATOM    NAI-a   H2A   50
+IATOM    NAI-a   H2B   51
+IATOM    NAI-a   H2D   52
+IATOM    NAI-a   H3B   53
+IATOM    NAI-a   H2N   54
+IATOM    NAI-a   H3D   55
+IATOM    NAI-a   H4B   56
+IATOM    NAI-a   H4D   57
+IATOM    NAI-a   H4N   58
+IATOM    NAI-a   H4N   59
+IATOM    NAI-a   H5N   60
+IATOM    NAI-a   H6N   61
+IATOM    NAI-a   H8A   62
+IATOM    NAI-a  H5B1   63
+IATOM    NAI-a  H5B2   64
+IATOM    NAI-a  H5D1   65
+IATOM    NAI-a  H5D2   66
+IATOM    NAI-a  H6A1   67
+IATOM    NAI-a  H6A2   68
+IATOM    NAI-a  H7N1   69
+IATOM    NAI-a  H7N2   70
+
+IATOM    NAI-A    PA    0
+IATOM    NAI-A    PN    1
+IATOM    NAI-A   C1B    2
+IATOM    NAI-A   C1D    3
+IATOM    NAI-A   N1A    4
+IATOM    NAI-A   N1N    5
+IATOM    NAI-A   O1A    6
+IATOM    NAI-A   O1N    7
+IATOM    NAI-A   C2A    8
+IATOM    NAI-A   C2B    9
+IATOM    NAI-A   C2D   10
+IATOM    NAI-A   C2N   11
+IATOM    NAI-A   O2A   12
+IATOM    NAI-A   O2B   13
+IATOM    NAI-A   O2D   14
+IATOM    NAI-A   O2N   15
+IATOM    NAI-A   C3B   16
+IATOM    NAI-A   C3D   17
+IATOM    NAI-A   C3N   18
+IATOM    NAI-A   N3A   19
+IATOM    NAI-A    O3   20
+IATOM    NAI-A   O3B   21
+IATOM    NAI-A   O3D   22
+IATOM    NAI-A   C4A   23
+IATOM    NAI-A   C4B   24
+IATOM    NAI-A   C4D   25
+IATOM    NAI-A   C4N   26
+IATOM    NAI-A   O4B   27
+IATOM    NAI-A   O4D   28
+IATOM    NAI-A   C5A   29
+IATOM    NAI-A   C5B   30
+IATOM    NAI-A   C5D   31
+IATOM    NAI-A   C5N   32
+IATOM    NAI-A   O5B   33
+IATOM    NAI-A   O5D   34
+IATOM    NAI-A   C6A   35
+IATOM    NAI-A   C6N   36
+IATOM    NAI-A   N6A   37
+IATOM    NAI-A   C7N   38
+IATOM    NAI-A   N7A   39
+IATOM    NAI-A   N7N   40
+IATOM    NAI-A   O7N   41
+IATOM    NAI-A   C8A   42
+IATOM    NAI-A   N9A   43
+IATOM    NAI-A  HO2B   44
+IATOM    NAI-A  HO2D   45
+IATOM    NAI-A  HO3B   46
+IATOM    NAI-A  HO3D   47
+IATOM    NAI-A   H1B   48
+IATOM    NAI-A   H1D   49
+IATOM    NAI-A   H2A   50
+IATOM    NAI-A   H2B   51
+IATOM    NAI-A   H2D   52
+IATOM    NAI-A   H3B   53
+IATOM    NAI-A   H2N   54
+IATOM    NAI-A   H3D   55
+IATOM    NAI-A   H4B   56
+IATOM    NAI-A   H4D   57
+IATOM    NAI-A   H4N   58
+IATOM    NAI-A   H4N   59
+IATOM    NAI-A   H5N   60
+IATOM    NAI-A   H6N   61
+IATOM    NAI-A   H8A   62
+IATOM    NAI-A  H5B1   63
+IATOM    NAI-A  H5B2   64
+IATOM    NAI-A  H5D1   65
+IATOM    NAI-A  H5D2   66
+IATOM    NAI-A  H6A1   67
+IATOM    NAI-A  H6A2   68
+IATOM    NAI-A  H7N2   69
+
+IATOM    NAI-B    PA    0
+IATOM    NAI-B    PN    1
+IATOM    NAI-B   C1B    2
+IATOM    NAI-B   C1D    3
+IATOM    NAI-B   N1A    4
+IATOM    NAI-B   N1N    5
+IATOM    NAI-B   O1A    6
+IATOM    NAI-B   O1N    7
+IATOM    NAI-B   C2A    8
+IATOM    NAI-B   C2B    9
+IATOM    NAI-B   C2D   10
+IATOM    NAI-B   C2N   11
+IATOM    NAI-B   O2A   12
+IATOM    NAI-B   O2B   13
+IATOM    NAI-B   O2D   14
+IATOM    NAI-B   O2N   15
+IATOM    NAI-B   C3B   16
+IATOM    NAI-B   C3D   17
+IATOM    NAI-B   C3N   18
+IATOM    NAI-B   N3A   19
+IATOM    NAI-B    O3   20
+IATOM    NAI-B   O3B   21
+IATOM    NAI-B   O3D   22
+IATOM    NAI-B   C4A   23
+IATOM    NAI-B   C4B   24
+IATOM    NAI-B   C4D   25
+IATOM    NAI-B   C4N   26
+IATOM    NAI-B   O4B   27
+IATOM    NAI-B   O4D   28
+IATOM    NAI-B   C5A   29
+IATOM    NAI-B   C5B   30
+IATOM    NAI-B   C5D   31
+IATOM    NAI-B   C5N   32
+IATOM    NAI-B   O5B   33
+IATOM    NAI-B   O5D   34
+IATOM    NAI-B   C6A   35
+IATOM    NAI-B   C6N   36
+IATOM    NAI-B   N6A   37
+IATOM    NAI-B   C7N   38
+IATOM    NAI-B   N7A   39
+IATOM    NAI-B   N7N   40
+IATOM    NAI-B   O7N   41
+IATOM    NAI-B   C8A   42
+IATOM    NAI-B   N9A   43
+IATOM    NAI-B  HO2B   44
+IATOM    NAI-B  HO2D   45
+IATOM    NAI-B  HO3B   46
+IATOM    NAI-B  HO3D   47
+IATOM    NAI-B   H1B   48
+IATOM    NAI-B   H1D   49
+IATOM    NAI-B   H2A   50
+IATOM    NAI-B   H2B   51
+IATOM    NAI-B   H2D   52
+IATOM    NAI-B   H3B   53
+IATOM    NAI-B   H2N   54
+IATOM    NAI-B   H3D   55
+IATOM    NAI-B   H4B   56
+IATOM    NAI-B   H4D   57
+IATOM    NAI-B   H4N   58
+IATOM    NAI-B   H4N   59
+IATOM    NAI-B   H5N   60
+IATOM    NAI-B   H6N   61
+IATOM    NAI-B   H8A   62
+IATOM    NAI-B  H5B1   63
+IATOM    NAI-B  H5B2   64
+IATOM    NAI-B  H5D1   65
+IATOM    NAI-B  H5D2   66
+IATOM    NAI-B  H6A1   67
+IATOM    NAI-B  H6A2   68
+IATOM    NAI-B  H7N1   69
+
+IATOM    NAI-1    PA    0
+IATOM    NAI-1    PN    1
+IATOM    NAI-1   C1B    2
+IATOM    NAI-1   C1D    3
+IATOM    NAI-1   N1A    4
+IATOM    NAI-1   N1N    5
+IATOM    NAI-1   O1A    6
+IATOM    NAI-1   O1N    7
+IATOM    NAI-1   C2A    8
+IATOM    NAI-1   C2B    9
+IATOM    NAI-1   C2D   10
+IATOM    NAI-1   C2N   11
+IATOM    NAI-1   O2A   12
+IATOM    NAI-1   O2B   13
+IATOM    NAI-1   O2D   14
+IATOM    NAI-1   O2N   15
+IATOM    NAI-1   C3B   16
+IATOM    NAI-1   C3D   17
+IATOM    NAI-1   C3N   18
+IATOM    NAI-1   N3A   19
+IATOM    NAI-1    O3   20
+IATOM    NAI-1   O3B   21
+IATOM    NAI-1   O3D   22
+IATOM    NAI-1   C4A   23
+IATOM    NAI-1   C4B   24
+IATOM    NAI-1   C4D   25
+IATOM    NAI-1   C4N   26
+IATOM    NAI-1   O4B   27
+IATOM    NAI-1   O4D   28
+IATOM    NAI-1   C5A   29
+IATOM    NAI-1   C5B   30
+IATOM    NAI-1   C5D   31
+IATOM    NAI-1   C5N   32
+IATOM    NAI-1   O5B   33
+IATOM    NAI-1   O5D   34
+IATOM    NAI-1   C6A   35
+IATOM    NAI-1   C6N   36
+IATOM    NAI-1   N6A   37
+IATOM    NAI-1   C7N   38
+IATOM    NAI-1   N7A   39
+IATOM    NAI-1   N7N   40
+IATOM    NAI-1   O7N   41
+IATOM    NAI-1   C8A   42
+IATOM    NAI-1   N9A   43
+IATOM    NAI-1  HO2B   44
+IATOM    NAI-1  HO2D   45
+IATOM    NAI-1  HO3B   46
+IATOM    NAI-1  HO3D   47
+IATOM    NAI-1   H1B   48
+IATOM    NAI-1   H1D   49
+IATOM    NAI-1   H2A   50
+IATOM    NAI-1   H2B   51
+IATOM    NAI-1   H2D   52
+IATOM    NAI-1   H3B   53
+IATOM    NAI-1   H2N   54
+IATOM    NAI-1   H3D   55
+IATOM    NAI-1   H4B   56
+IATOM    NAI-1   H4D   57
+IATOM    NAI-1   H4N   58
+IATOM    NAI-1   H4N   59
+IATOM    NAI-1   H5N   60
+IATOM    NAI-1   H6N   61
+IATOM    NAI-1   H8A   62
+IATOM    NAI-1  H5B1   63
+IATOM    NAI-1  H5B2   64
+IATOM    NAI-1  H5D1   65
+IATOM    NAI-1  H5D2   66
+IATOM    NAI-1  H6A1   67
+IATOM    NAI-1  H6A2   68
+IATOM    NAI-1  H7N1   69
+IATOM    NAI-1  H7N2   70
+IATOM    NAI-1   H72   71
+
+IATOM    NAI-C    PA    0
+IATOM    NAI-C    PN    1
+IATOM    NAI-C   C1B    2
+IATOM    NAI-C   C1D    3
+IATOM    NAI-C   N1A    4
+IATOM    NAI-C   N1N    5
+IATOM    NAI-C   O1A    6
+IATOM    NAI-C   O1N    7
+IATOM    NAI-C   C2A    8
+IATOM    NAI-C   C2B    9
+IATOM    NAI-C   C2D   10
+IATOM    NAI-C   C2N   11
+IATOM    NAI-C   O2A   12
+IATOM    NAI-C   O2B   13
+IATOM    NAI-C   O2D   14
+IATOM    NAI-C   O2N   15
+IATOM    NAI-C   C3B   16
+IATOM    NAI-C   C3D   17
+IATOM    NAI-C   C3N   18
+IATOM    NAI-C   N3A   19
+IATOM    NAI-C    O3   20
+IATOM    NAI-C   O3B   21
+IATOM    NAI-C   O3D   22
+IATOM    NAI-C   C4A   23
+IATOM    NAI-C   C4B   24
+IATOM    NAI-C   C4D   25
+IATOM    NAI-C   C4N   26
+IATOM    NAI-C   O4B   27
+IATOM    NAI-C   O4D   28
+IATOM    NAI-C   C5A   29
+IATOM    NAI-C   C5B   30
+IATOM    NAI-C   C5D   31
+IATOM    NAI-C   C5N   32
+IATOM    NAI-C   O5B   33
+IATOM    NAI-C   O5D   34
+IATOM    NAI-C   C6A   35
+IATOM    NAI-C   C6N   36
+IATOM    NAI-C   N6A   37
+IATOM    NAI-C   C7N   38
+IATOM    NAI-C   N7A   39
+IATOM    NAI-C   N7N   40
+IATOM    NAI-C   O7N   41
+IATOM    NAI-C   C8A   42
+IATOM    NAI-C   N9A   43
+IATOM    NAI-C  HO2B   44
+IATOM    NAI-C  HO3B   45
+IATOM    NAI-C  HO3D   46
+IATOM    NAI-C   H1B   47
+IATOM    NAI-C   H1D   48
+IATOM    NAI-C   H2A   49
+IATOM    NAI-C   H2B   50
+IATOM    NAI-C   H2D   51
+IATOM    NAI-C   H3B   52
+IATOM    NAI-C   H2N   53
+IATOM    NAI-C   H3D   54
+IATOM    NAI-C   H4B   55
+IATOM    NAI-C   H4D   56
+IATOM    NAI-C   H4N   57
+IATOM    NAI-C   H4N   58
+IATOM    NAI-C   H5N   59
+IATOM    NAI-C   H6N   60
+IATOM    NAI-C   H8A   61
+IATOM    NAI-C  H5B1   62
+IATOM    NAI-C  H5B2   63
+IATOM    NAI-C  H5D1   64
+IATOM    NAI-C  H5D2   65
+IATOM    NAI-C  H6A1   66
+IATOM    NAI-C  H6A2   67
+IATOM    NAI-C  H7N1   68
+IATOM    NAI-C  H7N2   69
+
+ATOMNAME NAI-a     0  PA
+ATOMNAME NAI-a     1  PN
+ATOMNAME NAI-a     2 C1B
+ATOMNAME NAI-a     3 C1D
+ATOMNAME NAI-a     4 N1A
+ATOMNAME NAI-a     5 N1N
+ATOMNAME NAI-a     6 O1A
+ATOMNAME NAI-a     7 O1N
+ATOMNAME NAI-a     8 C2A
+ATOMNAME NAI-a     9 C2B
+ATOMNAME NAI-a    10 C2D
+ATOMNAME NAI-a    11 C2N
+ATOMNAME NAI-a    12 O2A
+ATOMNAME NAI-a    13 O2B
+ATOMNAME NAI-a    14 O2D
+ATOMNAME NAI-a    15 O2N
+ATOMNAME NAI-a    16 C3B
+ATOMNAME NAI-a    17 C3D
+ATOMNAME NAI-a    18 C3N
+ATOMNAME NAI-a    19 N3A
+ATOMNAME NAI-a    20  O3
+ATOMNAME NAI-a    21 O3B
+ATOMNAME NAI-a    22 O3D
+ATOMNAME NAI-a    23 C4A
+ATOMNAME NAI-a    24 C4B
+ATOMNAME NAI-a    25 C4D
+ATOMNAME NAI-a    26 C4N
+ATOMNAME NAI-a    27 O4B
+ATOMNAME NAI-a    28 O4D
+ATOMNAME NAI-a    29 C5A
+ATOMNAME NAI-a    30 C5B
+ATOMNAME NAI-a    31 C5D
+ATOMNAME NAI-a    32 C5N
+ATOMNAME NAI-a    33 O5B
+ATOMNAME NAI-a    34 O5D
+ATOMNAME NAI-a    35 C6A
+ATOMNAME NAI-a    36 C6N
+ATOMNAME NAI-a    37 N6A
+ATOMNAME NAI-a    38 C7N
+ATOMNAME NAI-a    39 N7A
+ATOMNAME NAI-a    40 N7N
+ATOMNAME NAI-a    41 O7N
+ATOMNAME NAI-a    42 C8A
+ATOMNAME NAI-a    43 N9A
+ATOMNAME NAI-a    44HO2B
+ATOMNAME NAI-a    45HO2D
+ATOMNAME NAI-a    46HO3B
+ATOMNAME NAI-a    47HO3D
+ATOMNAME NAI-a    48 H1B
+ATOMNAME NAI-a    49 H1D
+ATOMNAME NAI-a    50 H2A
+ATOMNAME NAI-a    51 H2B
+ATOMNAME NAI-a    52 H2D
+ATOMNAME NAI-a    53 H3B
+ATOMNAME NAI-a    54 H2N
+ATOMNAME NAI-a    55 H3D
+ATOMNAME NAI-a    56 H4B
+ATOMNAME NAI-a    57 H4D
+ATOMNAME NAI-a    58 H4N
+ATOMNAME NAI-a    59 H4N
+ATOMNAME NAI-a    60 H5N
+ATOMNAME NAI-a    61 H6N
+ATOMNAME NAI-a    62 H8A
+ATOMNAME NAI-a    63H5B1
+ATOMNAME NAI-a    64H5B2
+ATOMNAME NAI-a    65H5D1
+ATOMNAME NAI-a    66H5D2
+ATOMNAME NAI-a    67H6A1
+ATOMNAME NAI-a    68H6A2
+ATOMNAME NAI-a    69H7N1
+ATOMNAME NAI-a    70H7N2
+
+ATOMNAME NAI-A     0  PA
+ATOMNAME NAI-A     1  PN
+ATOMNAME NAI-A     2 C1B
+ATOMNAME NAI-A     3 C1D
+ATOMNAME NAI-A     4 N1A
+ATOMNAME NAI-A     5 N1N
+ATOMNAME NAI-A     6 O1A
+ATOMNAME NAI-A     7 O1N
+ATOMNAME NAI-A     8 C2A
+ATOMNAME NAI-A     9 C2B
+ATOMNAME NAI-A    10 C2D
+ATOMNAME NAI-A    11 C2N
+ATOMNAME NAI-A    12 O2A
+ATOMNAME NAI-A    13 O2B
+ATOMNAME NAI-A    14 O2D
+ATOMNAME NAI-A    15 O2N
+ATOMNAME NAI-A    16 C3B
+ATOMNAME NAI-A    17 C3D
+ATOMNAME NAI-A    18 C3N
+ATOMNAME NAI-A    19 N3A
+ATOMNAME NAI-A    20  O3
+ATOMNAME NAI-A    21 O3B
+ATOMNAME NAI-A    22 O3D
+ATOMNAME NAI-A    23 C4A
+ATOMNAME NAI-A    24 C4B
+ATOMNAME NAI-A    25 C4D
+ATOMNAME NAI-A    26 C4N
+ATOMNAME NAI-A    27 O4B
+ATOMNAME NAI-A    28 O4D
+ATOMNAME NAI-A    29 C5A
+ATOMNAME NAI-A    30 C5B
+ATOMNAME NAI-A    31 C5D
+ATOMNAME NAI-A    32 C5N
+ATOMNAME NAI-A    33 O5B
+ATOMNAME NAI-A    34 O5D
+ATOMNAME NAI-A    35 C6A
+ATOMNAME NAI-A    36 C6N
+ATOMNAME NAI-A    37 N6A
+ATOMNAME NAI-A    38 C7N
+ATOMNAME NAI-A    39 N7A
+ATOMNAME NAI-A    40 N7N
+ATOMNAME NAI-A    41 O7N
+ATOMNAME NAI-A    42 C8A
+ATOMNAME NAI-A    43 N9A
+ATOMNAME NAI-A    44HO2B
+ATOMNAME NAI-A    45HO2D
+ATOMNAME NAI-A    46HO3B
+ATOMNAME NAI-A    47HO3D
+ATOMNAME NAI-A    48 H1B
+ATOMNAME NAI-A    49 H1D
+ATOMNAME NAI-A    50 H2A
+ATOMNAME NAI-A    51 H2B
+ATOMNAME NAI-A    52 H2D
+ATOMNAME NAI-A    53 H3B
+ATOMNAME NAI-A    54 H2N
+ATOMNAME NAI-A    55 H3D
+ATOMNAME NAI-A    56 H4B
+ATOMNAME NAI-A    57 H4D
+ATOMNAME NAI-A    58 H4N
+ATOMNAME NAI-A    59 H4N
+ATOMNAME NAI-A    60 H5N
+ATOMNAME NAI-A    61 H6N
+ATOMNAME NAI-A    62 H8A
+ATOMNAME NAI-A    63H5B1
+ATOMNAME NAI-A    64H5B2
+ATOMNAME NAI-A    65H5D1
+ATOMNAME NAI-A    66H5D2
+ATOMNAME NAI-A    67H6A1
+ATOMNAME NAI-A    68H6A2
+ATOMNAME NAI-A    69H7N2
+
+ATOMNAME NAI-B     0  PA
+ATOMNAME NAI-B     1  PN
+ATOMNAME NAI-B     2 C1B
+ATOMNAME NAI-B     3 C1D
+ATOMNAME NAI-B     4 N1A
+ATOMNAME NAI-B     5 N1N
+ATOMNAME NAI-B     6 O1A
+ATOMNAME NAI-B     7 O1N
+ATOMNAME NAI-B     8 C2A
+ATOMNAME NAI-B     9 C2B
+ATOMNAME NAI-B    10 C2D
+ATOMNAME NAI-B    11 C2N
+ATOMNAME NAI-B    12 O2A
+ATOMNAME NAI-B    13 O2B
+ATOMNAME NAI-B    14 O2D
+ATOMNAME NAI-B    15 O2N
+ATOMNAME NAI-B    16 C3B
+ATOMNAME NAI-B    17 C3D
+ATOMNAME NAI-B    18 C3N
+ATOMNAME NAI-B    19 N3A
+ATOMNAME NAI-B    20  O3
+ATOMNAME NAI-B    21 O3B
+ATOMNAME NAI-B    22 O3D
+ATOMNAME NAI-B    23 C4A
+ATOMNAME NAI-B    24 C4B
+ATOMNAME NAI-B    25 C4D
+ATOMNAME NAI-B    26 C4N
+ATOMNAME NAI-B    27 O4B
+ATOMNAME NAI-B    28 O4D
+ATOMNAME NAI-B    29 C5A
+ATOMNAME NAI-B    30 C5B
+ATOMNAME NAI-B    31 C5D
+ATOMNAME NAI-B    32 C5N
+ATOMNAME NAI-B    33 O5B
+ATOMNAME NAI-B    34 O5D
+ATOMNAME NAI-B    35 C6A
+ATOMNAME NAI-B    36 C6N
+ATOMNAME NAI-B    37 N6A
+ATOMNAME NAI-B    38 C7N
+ATOMNAME NAI-B    39 N7A
+ATOMNAME NAI-B    40 N7N
+ATOMNAME NAI-B    41 O7N
+ATOMNAME NAI-B    42 C8A
+ATOMNAME NAI-B    43 N9A
+ATOMNAME NAI-B    44HO2B
+ATOMNAME NAI-B    45HO2D
+ATOMNAME NAI-B    46HO3B
+ATOMNAME NAI-B    47HO3D
+ATOMNAME NAI-B    48 H1B
+ATOMNAME NAI-B    49 H1D
+ATOMNAME NAI-B    50 H2A
+ATOMNAME NAI-B    51 H2B
+ATOMNAME NAI-B    52 H2D
+ATOMNAME NAI-B    53 H3B
+ATOMNAME NAI-B    54 H2N
+ATOMNAME NAI-B    55 H3D
+ATOMNAME NAI-B    56 H4B
+ATOMNAME NAI-B    57 H4D
+ATOMNAME NAI-B    58 H4N
+ATOMNAME NAI-B    59 H4N
+ATOMNAME NAI-B    60 H5N
+ATOMNAME NAI-B    61 H6N
+ATOMNAME NAI-B    62 H8A
+ATOMNAME NAI-B    63H5B1
+ATOMNAME NAI-B    64H5B2
+ATOMNAME NAI-B    65H5D1
+ATOMNAME NAI-B    66H5D2
+ATOMNAME NAI-B    67H6A1
+ATOMNAME NAI-B    68H6A2
+ATOMNAME NAI-B    69H7N1
+
+ATOMNAME NAI-1     0  PA
+ATOMNAME NAI-1     1  PN
+ATOMNAME NAI-1     2 C1B
+ATOMNAME NAI-1     3 C1D
+ATOMNAME NAI-1     4 N1A
+ATOMNAME NAI-1     5 N1N
+ATOMNAME NAI-1     6 O1A
+ATOMNAME NAI-1     7 O1N
+ATOMNAME NAI-1     8 C2A
+ATOMNAME NAI-1     9 C2B
+ATOMNAME NAI-1    10 C2D
+ATOMNAME NAI-1    11 C2N
+ATOMNAME NAI-1    12 O2A
+ATOMNAME NAI-1    13 O2B
+ATOMNAME NAI-1    14 O2D
+ATOMNAME NAI-1    15 O2N
+ATOMNAME NAI-1    16 C3B
+ATOMNAME NAI-1    17 C3D
+ATOMNAME NAI-1    18 C3N
+ATOMNAME NAI-1    19 N3A
+ATOMNAME NAI-1    20  O3
+ATOMNAME NAI-1    21 O3B
+ATOMNAME NAI-1    22 O3D
+ATOMNAME NAI-1    23 C4A
+ATOMNAME NAI-1    24 C4B
+ATOMNAME NAI-1    25 C4D
+ATOMNAME NAI-1    26 C4N
+ATOMNAME NAI-1    27 O4B
+ATOMNAME NAI-1    28 O4D
+ATOMNAME NAI-1    29 C5A
+ATOMNAME NAI-1    30 C5B
+ATOMNAME NAI-1    31 C5D
+ATOMNAME NAI-1    32 C5N
+ATOMNAME NAI-1    33 O5B
+ATOMNAME NAI-1    34 O5D
+ATOMNAME NAI-1    35 C6A
+ATOMNAME NAI-1    36 C6N
+ATOMNAME NAI-1    37 N6A
+ATOMNAME NAI-1    38 C7N
+ATOMNAME NAI-1    39 N7A
+ATOMNAME NAI-1    40 N7N
+ATOMNAME NAI-1    41 O7N
+ATOMNAME NAI-1    42 C8A
+ATOMNAME NAI-1    43 N9A
+ATOMNAME NAI-1    44HO2B
+ATOMNAME NAI-1    45HO2D
+ATOMNAME NAI-1    46HO3B
+ATOMNAME NAI-1    47HO3D
+ATOMNAME NAI-1    48 H1B
+ATOMNAME NAI-1    49 H1D
+ATOMNAME NAI-1    50 H2A
+ATOMNAME NAI-1    51 H2B
+ATOMNAME NAI-1    52 H2D
+ATOMNAME NAI-1    53 H3B
+ATOMNAME NAI-1    54 H2N
+ATOMNAME NAI-1    55 H3D
+ATOMNAME NAI-1    56 H4B
+ATOMNAME NAI-1    57 H4D
+ATOMNAME NAI-1    58 H4N
+ATOMNAME NAI-1    59 H4N
+ATOMNAME NAI-1    60 H5N
+ATOMNAME NAI-1    61 H6N
+ATOMNAME NAI-1    62 H8A
+ATOMNAME NAI-1    63H5B1
+ATOMNAME NAI-1    64H5B2
+ATOMNAME NAI-1    65H5D1
+ATOMNAME NAI-1    66H5D2
+ATOMNAME NAI-1    67H6A1
+ATOMNAME NAI-1    68H6A2
+ATOMNAME NAI-1    69H7N1
+ATOMNAME NAI-1    70H7N2
+ATOMNAME NAI-1    71 H72
+
+ATOMNAME NAI-C     0  PA
+ATOMNAME NAI-C     1  PN
+ATOMNAME NAI-C     2 C1B
+ATOMNAME NAI-C     3 C1D
+ATOMNAME NAI-C     4 N1A
+ATOMNAME NAI-C     5 N1N
+ATOMNAME NAI-C     6 O1A
+ATOMNAME NAI-C     7 O1N
+ATOMNAME NAI-C     8 C2A
+ATOMNAME NAI-C     9 C2B
+ATOMNAME NAI-C    10 C2D
+ATOMNAME NAI-C    11 C2N
+ATOMNAME NAI-C    12 O2A
+ATOMNAME NAI-C    13 O2B
+ATOMNAME NAI-C    14 O2D
+ATOMNAME NAI-C    15 O2N
+ATOMNAME NAI-C    16 C3B
+ATOMNAME NAI-C    17 C3D
+ATOMNAME NAI-C    18 C3N
+ATOMNAME NAI-C    19 N3A
+ATOMNAME NAI-C    20  O3
+ATOMNAME NAI-C    21 O3B
+ATOMNAME NAI-C    22 O3D
+ATOMNAME NAI-C    23 C4A
+ATOMNAME NAI-C    24 C4B
+ATOMNAME NAI-C    25 C4D
+ATOMNAME NAI-C    26 C4N
+ATOMNAME NAI-C    27 O4B
+ATOMNAME NAI-C    28 O4D
+ATOMNAME NAI-C    29 C5A
+ATOMNAME NAI-C    30 C5B
+ATOMNAME NAI-C    31 C5D
+ATOMNAME NAI-C    32 C5N
+ATOMNAME NAI-C    33 O5B
+ATOMNAME NAI-C    34 O5D
+ATOMNAME NAI-C    35 C6A
+ATOMNAME NAI-C    36 C6N
+ATOMNAME NAI-C    37 N6A
+ATOMNAME NAI-C    38 C7N
+ATOMNAME NAI-C    39 N7A
+ATOMNAME NAI-C    40 N7N
+ATOMNAME NAI-C    41 O7N
+ATOMNAME NAI-C    42 C8A
+ATOMNAME NAI-C    43 N9A
+ATOMNAME NAI-C    44HO2B
+ATOMNAME NAI-C    45HO3B
+ATOMNAME NAI-C    46HO3D
+ATOMNAME NAI-C    47 H1B
+ATOMNAME NAI-C    48 H1D
+ATOMNAME NAI-C    49 H2A
+ATOMNAME NAI-C    50 H2B
+ATOMNAME NAI-C    51 H2D
+ATOMNAME NAI-C    52 H3B
+ATOMNAME NAI-C    53 H2N
+ATOMNAME NAI-C    54 H3D
+ATOMNAME NAI-C    55 H4B
+ATOMNAME NAI-C    56 H4D
+ATOMNAME NAI-C    57 H4N
+ATOMNAME NAI-C    58 H4N
+ATOMNAME NAI-C    59 H5N
+ATOMNAME NAI-C    60 H6N
+ATOMNAME NAI-C    61 H8A
+ATOMNAME NAI-C    62H5B1
+ATOMNAME NAI-C    63H5B2
+ATOMNAME NAI-C    64H5D1
+ATOMNAME NAI-C    65H5D2
+ATOMNAME NAI-C    66H6A1
+ATOMNAME NAI-C    67H6A2
+ATOMNAME NAI-C    68H7N1
+ATOMNAME NAI-C    69H7N2
+
+#1.Basic Conformer Information: name, pka, em, rxn.
+#23456789A123456789B123456789C
+
+# PROTON SECTION: PROTON means charge
+
+PROTON   NAI-a      0    
+PROTON   NAI-A      0    
+PROTON   NAI-B      0    
+PROTON   NAI-1      0    
+PROTON   NAI-C      0    
+PROTON   NAIDM      0    
+
+# Solution pKa Section: pKa data from CRC Handbook of Chemistry and Physics
+# pka is set to zero
+PKA      NAI-a         0.000
+PKA      NAI-A         0.000
+PKA      NAI-B         0.000
+PKA      NAI-1         0.000
+PKA      NAI-C         0.000
+PKA      NAIDM         0.000
+
+#ELECTRON SECTION:
+ELECTRON NAI-a      0.0  
+ELECTRON NAI-A      0.0  
+ELECTRON NAI-B      0.0  
+ELECTRON NAI-1      0.0  
+ELECTRON NAI-C      0.0  
+ELECTRON NAIDM      0.0  
+
+# EM SECTION:
+EM       NAI-a      0.0  
+EM       NAI-A      0.0  
+EM       NAI-B      0.0  
+EM       NAI-1      0.0  
+EM       NAI-C      0.0  
+EM       NAIDM      0.0  
+
+# REACTION FIELD ENERGY SECTION:
+RXN      NAI-a      -59.936  
+RXN      NAI-A      -93.484  
+RXN      NAI-B      -93.350  
+RXN      NAI-1      -54.073
+RXN      NAI-C      -94.284 
+
+#  NAI-a
+#ONNECT   conf atom  orbital  ires conn ires conn ires conn ires conn 
+#ONNECT |-----|----|---------|----|----|----|----|----|----|----|----|----|----|
+CONNECT  NAI-a  PA     sp3     0   O1A   0   O2A   0    O3   0   O5B  
+CONNECT  NAI-a  PN     sp3     0   O1N   0   O2N   0    O3   0   O5D  
+CONNECT  NAI-a C1B     sp3     0   C2B   0   O4B   0   N9A   0   H1D  
+CONNECT  NAI-a C1D     sp3     0   N1N   0   C2D   0   O4D   0   H2A  
+CONNECT  NAI-a N1A     sp2     0   C2A   0   C6A  
+CONNECT  NAI-a N1N     sp3     0   C1D   0   C2N   0   C6N  
+CONNECT  NAI-a O1A     sp2     0    PA  
+CONNECT  NAI-a O1N     sp2     0    PN  
+CONNECT  NAI-a C2A     sp2     0   N1A   0   N3A   0   H2B  
+CONNECT  NAI-a C2B     sp3     0   C1B   0   O2B   0   C3B   0   H2D  
+CONNECT  NAI-a C2D     sp3     0   C1D   0   O2D   0   C3D   0   H3B  
+CONNECT  NAI-a C2N     sp2     0   N1N   0   C3N   0   H3D  
+CONNECT  NAI-a O2A     sp3     0    PA  
+CONNECT  NAI-a O2B     sp3     0   C2B   0   HO2B 
+CONNECT  NAI-a O2D     sp3     0   C2D   0   HO3B 
+CONNECT  NAI-a O2N     sp3     0    PN  
+CONNECT  NAI-a C3B     sp3     0   C2B   0   O3B   0   C4B   0   H2N  
+CONNECT  NAI-a C3D     sp3     0   C2D   0   O3D   0   C4D   0   H4B  
+CONNECT  NAI-a C3N     sp2     0   C2N   0   C4N   0   C7N  
+CONNECT  NAI-a N3A     sp2     0   C2A   0   C4A  
+CONNECT  NAI-a  O3     sp3     0    PA   0    PN  
+CONNECT  NAI-a O3B     sp3     0   C3B   0   HO3D 
+CONNECT  NAI-a O3D     sp3     0   C3D   0   H1B  
+CONNECT  NAI-a C4A     sp2     0   N3A   0   C5A   0   N9A  
+CONNECT  NAI-a C4B     sp3     0   C3B   0   O4B   0   C5B   0   H4D  
+CONNECT  NAI-a C4D     sp3     0   C3D   0   O4D   0   C5D   0   H4N  
+CONNECT  NAI-a C4N     sp3     0   C3N   0   C5N   0   H4N   0   H5N  
+CONNECT  NAI-a O4B     sp3     0   C1B   0   C4B  
+CONNECT  NAI-a O4D     sp3     0   C1D   0   C4D  
+CONNECT  NAI-a C5A     sp2     0   C4A   0   C6A   0   N7A  
+CONNECT  NAI-a C5B     sp3     0   C4B   0   O5B   0   H5B2  0   H5D1 
+CONNECT  NAI-a C5D     sp3     0   C4D   0   O5D   0   H5D2  0   H6A1 
+CONNECT  NAI-a C5N     sp2     0   C4N   0   C6N   0   H6N  
+CONNECT  NAI-a O5B     sp3     0    PA   0   C5B  
+CONNECT  NAI-a O5D     sp3     0    PN   0   C5D  
+CONNECT  NAI-a C6A     sp2     0   N1A   0   C5A   0   N6A  
+CONNECT  NAI-a C6N     sp2     0   N1N   0   C5N   0   H8A  
+CONNECT  NAI-a N6A     sp3     0   C6A   0   H6A2  0   H7N1 
+CONNECT  NAI-a C7N     sp2     0   C3N   0   N7N   0   O7N  
+CONNECT  NAI-a N7A     sp2     0   C5A   0   C8A  
+CONNECT  NAI-a N7N     sp2     0   C7N   0   H7N2  0   H7N2 
+CONNECT  NAI-a O7N     sp2     0   C7N  
+CONNECT  NAI-a C8A     sp2     0   N7A   0   N9A   0   H5B1 
+CONNECT  NAI-a N9A     sp3     0   C1B   0   C4A   0   C8A  
+CONNECT  NAI-a HO2B     s      0   O2B  
+CONNECT  NAI-a HO2D     s      0   O2D  
+CONNECT  NAI-a HO3B     s      0   O3B  
+CONNECT  NAI-a HO3D     s      0   O3D  
+CONNECT  NAI-a H1B      s      0   C1B  
+CONNECT  NAI-a H1D      s      0   C1D  
+CONNECT  NAI-a H2A      s      0   C2A  
+CONNECT  NAI-a H2B      s      0   C2B  
+CONNECT  NAI-a H2D      s      0   C2D  
+CONNECT  NAI-a H3B      s      0   C3B  
+CONNECT  NAI-a H2N      s      0   C2N  
+CONNECT  NAI-a H3D      s      0   C3D  
+CONNECT  NAI-a H4B      s      0   C4B  
+CONNECT  NAI-a H4D      s      0   C4D  
+CONNECT  NAI-a H4N      s      0   C4N  
+CONNECT  NAI-a H4N      s      0   C4N  
+CONNECT  NAI-a H5N      s      0   C5N  
+CONNECT  NAI-a H6N      s      0   C6N  
+CONNECT  NAI-a H8A      s      0   C8A  
+CONNECT  NAI-a H5B1     s      0   C5B  
+CONNECT  NAI-a H5B2     s      0   C5B  
+CONNECT  NAI-a H5D1     s      0   C5D  
+CONNECT  NAI-a H5D2     s      0   C5D  
+CONNECT  NAI-a H6A1     s      0   N6A  
+CONNECT  NAI-a H6A2     s      0   N6A  
+CONNECT  NAI-a H7N1     s      0   N7N  
+CONNECT  NAI-a H7N2     s      0   N7N  
+
+#  NAI-A
+#ONNECT   conf atom  orbital  ires conn ires conn ires conn ires conn 
+#ONNECT |-----|----|---------|----|----|----|----|----|----|----|----|----|----|
+CONNECT  NAI-A  PA     sp3     0   O1A   0   O2A   0    O3   0   O5B  
+CONNECT  NAI-A  PN     sp3     0   O1N   0   O2N   0    O3   0   O5D  
+CONNECT  NAI-A C1B     sp3     0   C2B   0   O4B   0   N9A   0   H1D  
+CONNECT  NAI-A C1D     sp3     0   N1N   0   C2D   0   O4D   0   H2A  
+CONNECT  NAI-A N1A     sp2     0   C2A   0   C6A  
+CONNECT  NAI-A N1N     sp3     0   C1D   0   C2N   0   C6N  
+CONNECT  NAI-A O1A     sp2     0    PA  
+CONNECT  NAI-A O1N     sp2     0    PN  
+CONNECT  NAI-A C2A     sp2     0   N1A   0   N3A   0   H2B  
+CONNECT  NAI-A C2B     sp3     0   C1B   0   O2B   0   C3B   0   H2D  
+CONNECT  NAI-A C2D     sp3     0   C1D   0   O2D   0   C3D   0   H3B  
+CONNECT  NAI-A C2N     sp2     0   N1N   0   C3N   0   H3D  
+CONNECT  NAI-A O2A     sp3     0    PA  
+CONNECT  NAI-A O2B     sp3     0   C2B   0   HO2B 
+CONNECT  NAI-A O2D     sp3     0   C2D   0   HO3B 
+CONNECT  NAI-A O2N     sp3     0    PN  
+CONNECT  NAI-A C3B     sp3     0   C2B   0   O3B   0   C4B   0   H2N  
+CONNECT  NAI-A C3D     sp3     0   C2D   0   O3D   0   C4D   0   H4B  
+CONNECT  NAI-A C3N     sp2     0   C2N   0   C4N   0   C7N  
+CONNECT  NAI-A N3A     sp2     0   C2A   0   C4A  
+CONNECT  NAI-A  O3     sp3     0    PA   0    PN  
+CONNECT  NAI-A O3B     sp3     0   C3B   0   HO3D 
+CONNECT  NAI-A O3D     sp3     0   C3D   0   H1B  
+CONNECT  NAI-A C4A     sp2     0   N3A   0   C5A   0   N9A  
+CONNECT  NAI-A C4B     sp3     0   C3B   0   O4B   0   C5B   0   H4D  
+CONNECT  NAI-A C4D     sp3     0   C3D   0   O4D   0   C5D   0   H4N  
+CONNECT  NAI-A C4N     sp3     0   C3N   0   C5N   0   H4N   0   H5N  
+CONNECT  NAI-A O4B     sp3     0   C1B   0   C4B  
+CONNECT  NAI-A O4D     sp3     0   C1D   0   C4D  
+CONNECT  NAI-A C5A     sp2     0   C4A   0   C6A   0   N7A  
+CONNECT  NAI-A C5B     sp3     0   C4B   0   O5B   0   H5B2  0   H5D1 
+CONNECT  NAI-A C5D     sp3     0   C4D   0   O5D   0   H5D2  0   H6A1 
+CONNECT  NAI-A C5N     sp2     0   C4N   0   C6N   0   H6N  
+CONNECT  NAI-A O5B     sp3     0    PA   0   C5B  
+CONNECT  NAI-A O5D     sp3     0    PN   0   C5D  
+CONNECT  NAI-A C6A     sp2     0   N1A   0   C5A   0   N6A  
+CONNECT  NAI-A C6N     sp2     0   N1N   0   C5N   0   H8A  
+CONNECT  NAI-A N6A     sp3     0   C6A   0   H6A2  0   H7N1 
+CONNECT  NAI-A C7N     sp2     0   C3N   0   N7N   0   O7N  
+CONNECT  NAI-A N7A     sp2     0   C5A   0   C8A  
+CONNECT  NAI-A N7N     sp2     0   C7N   0   H7N2 
+CONNECT  NAI-A O7N     sp3     0   C7N  
+CONNECT  NAI-A C8A     sp2     0   N7A   0   N9A   0   H5B1 
+CONNECT  NAI-A N9A     sp3     0   C1B   0   C4A   0   C8A  
+CONNECT  NAI-A HO2B     s      0   O2B  
+CONNECT  NAI-A HO2D     s      0   O2D  
+CONNECT  NAI-A HO3B     s      0   O3B  
+CONNECT  NAI-A HO3D     s      0   O3D  
+CONNECT  NAI-A H1B      s      0   C1B  
+CONNECT  NAI-A H1D      s      0   C1D  
+CONNECT  NAI-A H2A      s      0   C2A  
+CONNECT  NAI-A H2B      s      0   C2B  
+CONNECT  NAI-A H2D      s      0   C2D  
+CONNECT  NAI-A H3B      s      0   C3B  
+CONNECT  NAI-A H2N      s      0   C2N  
+CONNECT  NAI-A H3D      s      0   C3D  
+CONNECT  NAI-A H4B      s      0   C4B  
+CONNECT  NAI-A H4D      s      0   C4D  
+CONNECT  NAI-A H4N      s      0   C4N  
+CONNECT  NAI-A H4N      s      0   C4N  
+CONNECT  NAI-A H5N      s      0   C5N  
+CONNECT  NAI-A H6N      s      0   C6N  
+CONNECT  NAI-A H8A      s      0   C8A  
+CONNECT  NAI-A H5B1     s      0   C5B  
+CONNECT  NAI-A H5B2     s      0   C5B  
+CONNECT  NAI-A H5D1     s      0   C5D  
+CONNECT  NAI-A H5D2     s      0   C5D  
+CONNECT  NAI-A H6A1     s      0   N6A  
+CONNECT  NAI-A H6A2     s      0   N6A  
+CONNECT  NAI-A H7N2     s      0   N7N  
+
+#  NAI-B
+#ONNECT   conf atom  orbital  ires conn ires conn ires conn ires conn 
+#ONNECT |-----|----|---------|----|----|----|----|----|----|----|----|----|----|
+CONNECT  NAI-B  PA     sp3     0   O1A   0   O2A   0    O3   0   O5B  
+CONNECT  NAI-B  PN     sp3     0   O1N   0   O2N   0    O3   0   O5D  
+CONNECT  NAI-B C1B     sp3     0   C2B   0   O4B   0   N9A   0   H1D  
+CONNECT  NAI-B C1D     sp3     0   N1N   0   C2D   0   O4D   0   H2A  
+CONNECT  NAI-B N1A     sp2     0   C2A   0   C6A  
+CONNECT  NAI-B N1N     sp3     0   C1D   0   C2N   0   C6N  
+CONNECT  NAI-B O1A     sp2     0    PA  
+CONNECT  NAI-B O1N     sp2     0    PN  
+CONNECT  NAI-B C2A     sp2     0   N1A   0   N3A   0   H2B  
+CONNECT  NAI-B C2B     sp3     0   C1B   0   O2B   0   C3B   0   H2D  
+CONNECT  NAI-B C2D     sp3     0   C1D   0   O2D   0   C3D   0   H3B  
+CONNECT  NAI-B C2N     sp2     0   N1N   0   C3N   0   H3D  
+CONNECT  NAI-B O2A     sp3     0    PA  
+CONNECT  NAI-B O2B     sp3     0   C2B   0   HO2B 
+CONNECT  NAI-B O2D     sp3     0   C2D   0   HO3B 
+CONNECT  NAI-B O2N     sp3     0    PN  
+CONNECT  NAI-B C3B     sp3     0   C2B   0   O3B   0   C4B   0   H2N  
+CONNECT  NAI-B C3D     sp3     0   C2D   0   O3D   0   C4D   0   H4B  
+CONNECT  NAI-B C3N     sp2     0   C2N   0   C4N   0   C7N  
+CONNECT  NAI-B N3A     sp2     0   C2A   0   C4A  
+CONNECT  NAI-B  O3     sp3     0    PA   0    PN  
+CONNECT  NAI-B O3B     sp3     0   C3B   0   HO3D 
+CONNECT  NAI-B O3D     sp3     0   C3D   0   H1B  
+CONNECT  NAI-B C4A     sp2     0   N3A   0   C5A   0   N9A  
+CONNECT  NAI-B C4B     sp3     0   C3B   0   O4B   0   C5B   0   H4D  
+CONNECT  NAI-B C4D     sp3     0   C3D   0   O4D   0   C5D   0   H4N  
+CONNECT  NAI-B C4N     sp3     0   C3N   0   C5N   0   H4N   0   H5N  
+CONNECT  NAI-B O4B     sp3     0   C1B   0   C4B  
+CONNECT  NAI-B O4D     sp3     0   C1D   0   C4D  
+CONNECT  NAI-B C5A     sp2     0   C4A   0   C6A   0   N7A  
+CONNECT  NAI-B C5B     sp3     0   C4B   0   O5B   0   H5B2  0   H5D1 
+CONNECT  NAI-B C5D     sp3     0   C4D   0   O5D   0   H5D2  0   H6A1 
+CONNECT  NAI-B C5N     sp2     0   C4N   0   C6N   0   H6N  
+CONNECT  NAI-B O5B     sp3     0    PA   0   C5B  
+CONNECT  NAI-B O5D     sp3     0    PN   0   C5D  
+CONNECT  NAI-B C6A     sp2     0   N1A   0   C5A   0   N6A  
+CONNECT  NAI-B C6N     sp2     0   N1N   0   C5N   0   H8A  
+CONNECT  NAI-B N6A     sp3     0   C6A   0   H6A2  0   H7N1 
+CONNECT  NAI-B C7N     sp2     0   C3N   0   N7N   0   O7N  
+CONNECT  NAI-B N7A     sp2     0   C5A   0   C8A  
+CONNECT  NAI-B N7N     sp2     0   C7N   0   H7N2 
+CONNECT  NAI-B O7N     sp3     0   C7N  
+CONNECT  NAI-B C8A     sp2     0   N7A   0   N9A   0   H5B1 
+CONNECT  NAI-B N9A     sp3     0   C1B   0   C4A   0   C8A  
+CONNECT  NAI-B HO2B     s      0   O2B  
+CONNECT  NAI-B HO2D     s      0   O2D  
+CONNECT  NAI-B HO3B     s      0   O3B  
+CONNECT  NAI-B HO3D     s      0   O3D  
+CONNECT  NAI-B H1B      s      0   C1B  
+CONNECT  NAI-B H1D      s      0   C1D  
+CONNECT  NAI-B H2A      s      0   C2A  
+CONNECT  NAI-B H2B      s      0   C2B  
+CONNECT  NAI-B H2D      s      0   C2D  
+CONNECT  NAI-B H3B      s      0   C3B  
+CONNECT  NAI-B H2N      s      0   C2N  
+CONNECT  NAI-B H3D      s      0   C3D  
+CONNECT  NAI-B H4B      s      0   C4B  
+CONNECT  NAI-B H4D      s      0   C4D  
+CONNECT  NAI-B H4N      s      0   C4N  
+CONNECT  NAI-B H4N      s      0   C4N  
+CONNECT  NAI-B H5N      s      0   C5N  
+CONNECT  NAI-B H6N      s      0   C6N  
+CONNECT  NAI-B H8A      s      0   C8A  
+CONNECT  NAI-B H5B1     s      0   C5B  
+CONNECT  NAI-B H5B2     s      0   C5B  
+CONNECT  NAI-B H5D1     s      0   C5D  
+CONNECT  NAI-B H5D2     s      0   C5D  
+CONNECT  NAI-B H6A1     s      0   N6A  
+CONNECT  NAI-B H6A2     s      0   N6A  
+CONNECT  NAI-B H7N1     s      0   N7N  
+
+#  NAI-1
+#ONNECT   conf atom  orbital  ires conn ires conn ires conn ires conn 
+#ONNECT |-----|----|---------|----|----|----|----|----|----|----|----|----|----|
+CONNECT  NAI-1  PA     sp3     0   O1A   0   O2A   0    O3   0   O5B  
+CONNECT  NAI-1  PN     sp3     0   O1N   0   O2N   0    O3   0   O5D  
+CONNECT  NAI-1 C1B     sp3     0   C2B   0   O4B   0   N9A   0   H1B  
+CONNECT  NAI-1 C1D     sp3     0   N1N   0   C2D   0   O4D   0   H1D  
+CONNECT  NAI-1 N1A     sp3     0   C2A   0   C6A   0   H72  
+CONNECT  NAI-1 N1N     sp3     0   C1D   0   C2N   0   C6N  
+CONNECT  NAI-1 O1A     sp2     0    PA  
+CONNECT  NAI-1 O1N     sp2     0    PN  
+CONNECT  NAI-1 C2A     sp3     0   N1A   0   N3A   0   H2A  
+CONNECT  NAI-1 C2B     sp3     0   C1B   0   O2B   0   C3B   0   H2B  
+CONNECT  NAI-1 C2D     sp3     0   C1D   0   O2D   0   C3D   0   H2D  
+CONNECT  NAI-1 C2N     sp2     0   N1N   0   C3N   0   H2N
+CONNECT  NAI-1 O2A     sp3     0    PA  
+CONNECT  NAI-1 O2B     sp3     0   C2B   0   HO2B 
+CONNECT  NAI-1 O2D     sp3     0   C2D   0   HO2D 
+CONNECT  NAI-1 O2N     sp3     0    PN  
+CONNECT  NAI-1 C3B     sp3     0   C2B   0   O3B   0   C4B   0   H3B  
+CONNECT  NAI-1 C3D     sp3     0   C2D   0   O3D   0   C4D   0   H3D  
+CONNECT  NAI-1 C3N     sp2     0   C2N   0   C4N   0   C7N  
+CONNECT  NAI-1 N3A     sp2     0   C2A   0   C4A  
+CONNECT  NAI-1  O3     sp3     0    PA   0    PN  
+CONNECT  NAI-1 O3B     sp3     0   C3B   0   HO3B
+CONNECT  NAI-1 O3D     sp3     0   C3D   0   HO3D 
+CONNECT  NAI-1 C4A     sp2     0   N3A   0   C5A   0   N9A  
+CONNECT  NAI-1 C4B     sp3     0   C3B   0   O4B   0   C5B   0   H4B  
+CONNECT  NAI-1 C4D     sp3     0   C3D   0   O4D   0   C5D   0   H4D  
+CONNECT  NAI-1 C4N     sp3     0   C3N   0   C5N   0   H4N   0   H4N  
+CONNECT  NAI-1 O4B     sp3     0   C1B   0   C4B  
+CONNECT  NAI-1 O4D     sp3     0   C1D   0   C4D  
+CONNECT  NAI-1 C5A     sp2     0   C4A   0   C6A   0   N7A  
+CONNECT  NAI-1 C5B     sp3     0   C4B   0   O5B   0   H5B2  0   H5B1 
+CONNECT  NAI-1 C5D     sp3     0   C4D   0   O5D   0   H5D2  0   H5D1 
+CONNECT  NAI-1 C5N     sp2     0   C4N   0   C6N   0   H5N  
+CONNECT  NAI-1 O5B     sp3     0    PA   0   C5B  
+CONNECT  NAI-1 O5D     sp3     0    PN   0   C5D  
+CONNECT  NAI-1 C6A     sp2     0   N1A   0   C5A   0   N6A  
+CONNECT  NAI-1 C6N     sp2     0   N1N   0   C5N   0   H6N  
+CONNECT  NAI-1 N6A     sp3     0   C6A   0   H6A2  0   H6A1 
+CONNECT  NAI-1 C7N     sp2     0   C3N   0   N7N   0   O7N  
+CONNECT  NAI-1 N7A     sp2     0   C5A   0   C8A  
+CONNECT  NAI-1 N7N     sp2     0   C7N   0   H7N2  0   H7N1 
+CONNECT  NAI-1 O7N     sp2     0   C7N  
+CONNECT  NAI-1 C8A     sp2     0   N7A   0   N9A   0   H8A 
+CONNECT  NAI-1 N9A     sp3     0   C1B   0   C4A   0   C8A  
+CONNECT  NAI-1 HO2B     s      0   O2B  
+CONNECT  NAI-1 HO2D     s      0   O2D  
+CONNECT  NAI-1 HO3B     s      0   O3B  
+CONNECT  NAI-1 HO3D     s      0   O3D  
+CONNECT  NAI-1 H1B      s      0   C1B  
+CONNECT  NAI-1 H1D      s      0   C1D  
+CONNECT  NAI-1 H2A      s      0   C2A  
+CONNECT  NAI-1 H2B      s      0   C2B  
+CONNECT  NAI-1 H2D      s      0   C2D  
+CONNECT  NAI-1 H3B      s      0   C3B  
+CONNECT  NAI-1 H2N      s      0   C2N  
+CONNECT  NAI-1 H3D      s      0   C3D  
+CONNECT  NAI-1 H4B      s      0   C4B  
+CONNECT  NAI-1 H4D      s      0   C4D  
+CONNECT  NAI-1 H4N      s      0   C4N  
+CONNECT  NAI-1 H4N      s      0   C4N  
+CONNECT  NAI-1 H5N      s      0   C5N  
+CONNECT  NAI-1 H6N      s      0   C6N  
+CONNECT  NAI-1 H8A      s      0   C8A  
+CONNECT  NAI-1 H5B1     s      0   C5B  
+CONNECT  NAI-1 H5B2     s      0   C5B  
+CONNECT  NAI-1 H5D1     s      0   C5D  
+CONNECT  NAI-1 H5D2     s      0   C5D  
+CONNECT  NAI-1 H6A1     s      0   N6A  
+CONNECT  NAI-1 H6A2     s      0   N6A  
+CONNECT  NAI-1 H7N1     s      0   N7N  
+CONNECT  NAI-1 H7N2     s      0   N7N  
+CONNECT  NAI-1 H72      s      0   N1A  
+
+#  NAI-C
+#ONNECT   conf atom  orbital  ires conn ires conn ires conn ires conn 
+#ONNECT |-----|----|---------|----|----|----|----|----|----|----|----|----|----|
+CONNECT  NAI-C  PA     sp3     0   O1A   0   O2A   0    O3   0   O5B  
+CONNECT  NAI-C  PN     sp3     0   O1N   0   O2N   0    O3   0   O5D  
+CONNECT  NAI-C C1B     sp3     0   C2B   0   O4B   0   N9A   0   H1B  
+CONNECT  NAI-C C1D     sp3     0   N1N   0   C2D   0   O4D   0   H1D  
+CONNECT  NAI-C N1A     sp2     0   C2A   0   C6A  
+CONNECT  NAI-C N1N     sp3     0   C1D   0   C2N   0   C6N  
+CONNECT  NAI-C O1A     sp2     0    PA  
+CONNECT  NAI-C O1N     sp2     0    PN  
+CONNECT  NAI-C C2A     sp2     0   N1A   0   N3A   0   H2A  
+CONNECT  NAI-C C2B     sp3     0   C1B   0   O2B   0   C3B   0   H2B  
+CONNECT  NAI-C C2D     sp3     0   C1D   0   O2D   0   C3D   0   H2D  
+CONNECT  NAI-C C2N     sp2     0   N1N   0   C3N   0   H2N  
+CONNECT  NAI-C O2A     sp3     0    PA  
+CONNECT  NAI-C O2B     sp3     0   C2B   0   HO2B 
+CONNECT  NAI-C O2D     sp3     0   C2D  
+CONNECT  NAI-C O2N     sp3     0    PN  
+CONNECT  NAI-C C3B     sp3     0   C2B   0   O3B   0   C4B   0   H3B  
+CONNECT  NAI-C C3D     sp3     0   C2D   0   O3D   0   C4D   0   H3D  
+CONNECT  NAI-C C3N     sp2     0   C2N   0   C4N   0   C7N  
+CONNECT  NAI-C N3A     sp2     0   C2A   0   C4A  
+CONNECT  NAI-C  O3     sp3     0    PA   0    PN  
+CONNECT  NAI-C O3B     sp3     0   C3B   0   HO3B 
+CONNECT  NAI-C O3D     sp3     0   C3D   0   HO3D 
+CONNECT  NAI-C C4A     sp2     0   N3A   0   C5A   0   N9A  
+CONNECT  NAI-C C4B     sp3     0   C3B   0   O4B   0   C5B   0   H4B  
+CONNECT  NAI-C C4D     sp3     0   C3D   0   O4D   0   C5D   0   H4D  
+CONNECT  NAI-C C4N     sp3     0   C3N   0   C5N   0   H4N   0   H4N  
+CONNECT  NAI-C O4B     sp3     0   C1B   0   C4B  
+CONNECT  NAI-C O4D     sp3     0   C1D   0   C4D  
+CONNECT  NAI-C C5A     sp2     0   C4A   0   C6A   0   N7A  
+CONNECT  NAI-C C5B     sp3     0   C4B   0   O5B   0   H5B1  0   H5B2 
+CONNECT  NAI-C C5D     sp3     0   C4D   0   O5D   0   H5D1  0   H5D2 
+CONNECT  NAI-C C5N     sp2     0   C4N   0   C6N   0   H5N  
+CONNECT  NAI-C O5B     sp3     0    PA   0   C5B  
+CONNECT  NAI-C O5D     sp3     0    PN   0   C5D  
+CONNECT  NAI-C C6A     sp2     0   N1A   0   C5A   0   N6A  
+CONNECT  NAI-C C6N     sp2     0   N1N   0   C5N   0   H6N  
+CONNECT  NAI-C N6A     sp3     0   C6A   0   H6A1  0   H6A2 
+CONNECT  NAI-C C7N     sp2     0   C3N   0   N7N   0   O7N  
+CONNECT  NAI-C N7A     sp2     0   C5A   0   C8A  
+CONNECT  NAI-C N7N     sp2     0   C7N   0   H7N1  0   H7N2 
+CONNECT  NAI-C O7N     sp2     0   C7N  
+CONNECT  NAI-C C8A     sp2     0   N7A   0   N9A   0   H8A  
+CONNECT  NAI-C N9A     sp3     0   C1B   0   C4A   0   C8A  
+CONNECT  NAI-C HO2B     s      0   O2B  
+CONNECT  NAI-C HO3B     s      0   O3B  
+CONNECT  NAI-C HO3D     s      0   O3D  
+CONNECT  NAI-C H1B      s      0   C1B  
+CONNECT  NAI-C H1D      s      0   C1D  
+CONNECT  NAI-C H2A      s      0   C2A  
+CONNECT  NAI-C H2B      s      0   C2B  
+CONNECT  NAI-C H2D      s      0   C2D  
+CONNECT  NAI-C H3B      s      0   C3B  
+CONNECT  NAI-C H2N      s      0   C2N  
+CONNECT  NAI-C H3D      s      0   C3D  
+CONNECT  NAI-C H4B      s      0   C4B  
+CONNECT  NAI-C H4D      s      0   C4D  
+CONNECT  NAI-C H4N      s      0   C4N  
+CONNECT  NAI-C H4N      s      0   C4N  
+CONNECT  NAI-C H5N      s      0   C5N  
+CONNECT  NAI-C H6N      s      0   C6N  
+CONNECT  NAI-C H8A      s      0   C8A  
+CONNECT  NAI-C H5B1     s      0   C5B  
+CONNECT  NAI-C H5B2     s      0   C5B  
+CONNECT  NAI-C H5D1     s      0   C5D  
+CONNECT  NAI-C H5D2     s      0   C5D  
+CONNECT  NAI-C H6A1     s      0   N6A  
+CONNECT  NAI-C H6A2     s      0   N6A  
+CONNECT  NAI-C H7N1     s      0   N7N  
+CONNECT  NAI-C H7N2     s      0   N7N  
+
+# Atom Parameters:
+# Van Der Waals Radii. See source for reference
+RADIUS   NAI    PA        1.8
+RADIUS   NAI    PN        1.8
+RADIUS   NAI    C1B       1.7
+RADIUS   NAI    C1D       1.7
+RADIUS   NAI    N1A      1.55
+RADIUS   NAI    N1N      1.55
+RADIUS   NAI    O1A      1.52
+RADIUS   NAI    O1N      1.52
+RADIUS   NAI    C2A       1.7
+RADIUS   NAI    C2B       1.7
+RADIUS   NAI    C2D       1.7
+RADIUS   NAI    C2N       1.7
+RADIUS   NAI    O2A      1.52
+RADIUS   NAI    O2B      1.52
+RADIUS   NAI    O2D      1.52
+RADIUS   NAI    O2N      1.52
+RADIUS   NAI    C3B       1.7
+RADIUS   NAI    C3D       1.7
+RADIUS   NAI    C3N       1.7
+RADIUS   NAI    N3A      1.55
+RADIUS   NAI    O3       1.52
+RADIUS   NAI    O3B      1.52
+RADIUS   NAI    O3D      1.52
+RADIUS   NAI    C4A       1.7
+RADIUS   NAI    C4B       1.7
+RADIUS   NAI    C4D       1.7
+RADIUS   NAI    C4N       1.7
+RADIUS   NAI    O4B      1.52
+RADIUS   NAI    O4D      1.52
+RADIUS   NAI    C5A       1.7
+RADIUS   NAI    C5B       1.7
+RADIUS   NAI    C5D       1.7
+RADIUS   NAI    C5N       1.7
+RADIUS   NAI    O5B      1.52
+RADIUS   NAI    O5D      1.52
+RADIUS   NAI    C6A       1.7
+RADIUS   NAI    C6N       1.7
+RADIUS   NAI    N6A      1.55
+RADIUS   NAI    C7N       1.7
+RADIUS   NAI    N7A      1.55
+RADIUS   NAI    N7N      1.55
+RADIUS   NAI    O7N      1.52
+RADIUS   NAI    C8A       1.7
+RADIUS   NAI    N9A      1.55
+RADIUS   NAI    HO2B      1.2
+RADIUS   NAI    HO2D      1.2
+RADIUS   NAI    HO3B      1.2
+RADIUS   NAI    HO3D      1.2
+RADIUS   NAI    H1B       1.2
+RADIUS   NAI    H1D       1.2
+RADIUS   NAI    H2A       1.2
+RADIUS   NAI    H2B       1.2
+RADIUS   NAI    H2D       1.2
+RADIUS   NAI    H3B       1.2
+RADIUS   NAI    H2N       1.2
+RADIUS   NAI    H3D       1.2
+RADIUS   NAI    H4B       1.2
+RADIUS   NAI    H4D       1.2
+RADIUS   NAI    H4N       1.2
+RADIUS   NAI    H4N       1.2
+RADIUS   NAI    H5N       1.2
+RADIUS   NAI    H6N       1.2
+RADIUS   NAI    H8A       1.2
+RADIUS   NAI    H5B1      1.2
+RADIUS   NAI    H5B2      1.2
+RADIUS   NAI    H5D1      1.2
+RADIUS   NAI    H5D2      1.2
+RADIUS   NAI    H6A1      1.2
+RADIUS   NAI    H6A2      1.2
+RADIUS   NAI    H7N1      1.2
+RADIUS   NAI    H7N2      1.2
+RADIUS   NAI    H72       1.2
+
+CHARGE   NAI-a  PA   1.5975
+CHARGE   NAI-a  PN   1.5999
+CHARGE   NAI-a  C1B  0.4343
+CHARGE   NAI-a  C1D  0.4065
+CHARGE   NAI-a  N1A -0.8042
+CHARGE   NAI-a  N1N -0.5522
+CHARGE   NAI-a  O1A -0.8736
+CHARGE   NAI-a  O1N -0.8685
+CHARGE   NAI-a  C2A  0.6507
+CHARGE   NAI-a  C2B  0.0572
+CHARGE   NAI-a  C2D  0.0646
+CHARGE   NAI-a  C2N  0.1728
+CHARGE   NAI-a  O2A -0.8736
+CHARGE   NAI-a  O2B  -0.591
+CHARGE   NAI-a  O2D -0.6068
+CHARGE   NAI-a  O2N -0.8685
+CHARGE   NAI-a  C3B  0.0841
+CHARGE   NAI-a  C3D  0.0717
+CHARGE   NAI-a  C3N -0.3304
+CHARGE   NAI-a  N3A -0.7096
+CHARGE   NAI-a  O3   -0.815
+CHARGE   NAI-a  O3B -0.6037
+CHARGE   NAI-a  O3D -0.5846
+CHARGE   NAI-a  C4A  0.5672
+CHARGE   NAI-a  C4B  0.1083
+CHARGE   NAI-a  C4D  0.1085
+CHARGE   NAI-a  C4N  0.0431
+CHARGE   NAI-a  O4B -0.4042
+CHARGE   NAI-a  O4D -0.3867
+CHARGE   NAI-a  C5A -0.2035
+CHARGE   NAI-a  C5B  0.1867
+CHARGE   NAI-a  C5D  0.2034
+CHARGE   NAI-a  C5N -0.2554
+CHARGE   NAI-a  O5B -0.5724
+CHARGE   NAI-a  O5D -0.5698
+CHARGE   NAI-a  C6A   0.716
+CHARGE   NAI-a  C6N  0.0601
+CHARGE   NAI-a  N6A -0.9412
+CHARGE   NAI-a  C7N  0.6915
+CHARGE   NAI-a  N7A -0.5755
+CHARGE   NAI-a  N7N -0.6871
+CHARGE   NAI-a  O7N -0.6737
+CHARGE   NAI-a  C8A  0.5838
+CHARGE   NAI-a  N9A -0.6884
+CHARGE   NAI-a  HO2B  0.4061
+CHARGE   NAI-a  HO2D  0.4269
+CHARGE   NAI-a  HO3B  0.4063
+CHARGE   NAI-a  HO3D  0.4038
+CHARGE   NAI-a  H1B  0.0905
+CHARGE   NAI-a  H1D  0.0868
+CHARGE   NAI-a  H2A  0.0336
+CHARGE   NAI-a  H2B  0.0811
+CHARGE   NAI-a  H2D  0.0698
+CHARGE   NAI-a  H3B   0.082
+CHARGE   NAI-a  H2N  0.1651
+CHARGE   NAI-a  H3D  0.0688
+CHARGE   NAI-a  H4B  0.1069
+CHARGE   NAI-a  H4D  0.0879
+CHARGE   NAI-a  H4N  0.0174
+CHARGE   NAI-a  H4N  0.0174
+CHARGE   NAI-a  H5N  0.1469
+CHARGE   NAI-a  H6N  0.2059
+CHARGE   NAI-a  H8A  0.1378
+CHARGE   NAI-a  H5B1  0.0352
+CHARGE   NAI-a  H5B2  0.0352
+CHARGE   NAI-a  H5D1  0.0378
+CHARGE   NAI-a  H5D2  0.0378
+CHARGE   NAI-a  H6A1  0.4212
+CHARGE   NAI-a  H6A2  0.4212
+CHARGE   NAI-a  H7N1  0.3011
+CHARGE   NAI-a  H7N2  0.3011
+
+CHARGE   NAI-A  PA   1.5908
+CHARGE   NAI-A  PN   1.5944
+CHARGE   NAI-A  C1B  0.4311
+CHARGE   NAI-A  C1D  0.4122
+CHARGE   NAI-A  N1A -0.8076
+CHARGE   NAI-A  N1N -0.5893
+CHARGE   NAI-A  O1A -0.8735
+CHARGE   NAI-A  O1N -0.8717
+CHARGE   NAI-A  C2A  0.6481
+CHARGE   NAI-A  C2B  0.0536
+CHARGE   NAI-A  C2D  0.0945
+CHARGE   NAI-A  C2N -0.0057
+CHARGE   NAI-A  O2A -0.8735
+CHARGE   NAI-A  O2B -0.5933
+CHARGE   NAI-A  O2D -0.5852
+CHARGE   NAI-A  O2N -0.8717
+CHARGE   NAI-A  C3B  0.0772
+CHARGE   NAI-A  C3D   0.122
+CHARGE   NAI-A  C3N -0.2688
+CHARGE   NAI-A  N3A -0.7062
+CHARGE   NAI-A  O3  -0.8152
+CHARGE   NAI-A  O3B -0.5926
+CHARGE   NAI-A  O3D -0.5988
+CHARGE   NAI-A  C4A  0.5658
+CHARGE   NAI-A  C4B  0.0936
+CHARGE   NAI-A  C4D   0.091
+CHARGE   NAI-A  C4N  0.0325
+CHARGE   NAI-A  O4B -0.3992
+CHARGE   NAI-A  O4D -0.4246
+CHARGE   NAI-A  C5A  -0.203
+CHARGE   NAI-A  C5B  0.1994
+CHARGE   NAI-A  C5D  0.1706
+CHARGE   NAI-A  C5N -0.2954
+CHARGE   NAI-A  O5B -0.5664
+CHARGE   NAI-A  O5D -0.5938
+CHARGE   NAI-A  C6A  0.7125
+CHARGE   NAI-A  C6N  0.0816
+CHARGE   NAI-A  N6A -0.9392
+CHARGE   NAI-A  C7N  0.9323
+CHARGE   NAI-A  N7A -0.5789
+CHARGE   NAI-A  N7N -1.0712
+CHARGE   NAI-A  O7N -0.8711
+CHARGE   NAI-A  C8A  0.5861
+CHARGE   NAI-A  N9A -0.6817
+CHARGE   NAI-A  HO2B  0.4083
+CHARGE   NAI-A  HO2D  0.4014
+CHARGE   NAI-A  HO3B  0.4003
+CHARGE   NAI-A  HO3D  0.3954
+CHARGE   NAI-A  H1B  0.0902
+CHARGE   NAI-A  H1D  0.0602
+CHARGE   NAI-A  H2A  0.0315
+CHARGE   NAI-A  H2B  0.0774
+CHARGE   NAI-A  H2D  0.0713
+CHARGE   NAI-A  H3B  0.1106
+CHARGE   NAI-A  H2N  0.1238
+CHARGE   NAI-A  H3D  0.0826
+CHARGE   NAI-A  H4B  0.1148
+CHARGE   NAI-A  H4D   0.065
+CHARGE   NAI-A  H4N  0.0311
+CHARGE   NAI-A  H4N  0.0311
+CHARGE   NAI-A  H5N  0.1149
+CHARGE   NAI-A  H6N  0.1583
+CHARGE   NAI-A  H8A  0.1331
+CHARGE   NAI-A  H5B1  0.0254
+CHARGE   NAI-A  H5B2  0.0254
+CHARGE   NAI-A  H5D1   0.048
+CHARGE   NAI-A  H5D2   0.048
+CHARGE   NAI-A  H6A1  0.4177
+CHARGE   NAI-A  H6A2  0.4177
+CHARGE   NAI-A  H7N2  0.3047
+
+CHARGE   NAI-B  PA   1.5899
+CHARGE   NAI-B  PN    1.593
+CHARGE   NAI-B  C1B  0.4292
+CHARGE   NAI-B  C1D  0.4126
+CHARGE   NAI-B  N1A -0.8072
+CHARGE   NAI-B  N1N -0.5904
+CHARGE   NAI-B  O1A  -0.873
+CHARGE   NAI-B  O1N -0.8711
+CHARGE   NAI-B  C2A  0.6482
+CHARGE   NAI-B  C2B  0.0544
+CHARGE   NAI-B  C2D   0.096
+CHARGE   NAI-B  C2N  0.0152
+CHARGE   NAI-B  O2A  -0.873
+CHARGE   NAI-B  O2B -0.5933
+CHARGE   NAI-B  O2D  -0.587
+CHARGE   NAI-B  O2N -0.8711
+CHARGE   NAI-B  C3B  0.0772
+CHARGE   NAI-B  C3D  0.1182
+CHARGE   NAI-B  C3N -0.2067
+CHARGE   NAI-B  N3A -0.7062
+CHARGE   NAI-B  O3  -0.8156
+CHARGE   NAI-B  O3B  -0.594
+CHARGE   NAI-B  O3D -0.5962
+CHARGE   NAI-B  C4A  0.5685
+CHARGE   NAI-B  C4B  0.0933
+CHARGE   NAI-B  C4D  0.0915
+CHARGE   NAI-B  C4N  0.0293
+CHARGE   NAI-B  O4B -0.3981
+CHARGE   NAI-B  O4D -0.4277
+CHARGE   NAI-B  C5A -0.2042
+CHARGE   NAI-B  C5B  0.1958
+CHARGE   NAI-B  C5D  0.1706
+CHARGE   NAI-B  C5N -0.2935
+CHARGE   NAI-B  O5B -0.5645
+CHARGE   NAI-B  O5D -0.5927
+CHARGE   NAI-B  C6A   0.712
+CHARGE   NAI-B  C6N  0.0778
+CHARGE   NAI-B  N6A -0.9382
+CHARGE   NAI-B  C7N  0.9077
+CHARGE   NAI-B  N7A -0.5783
+CHARGE   NAI-B  N7N -1.0857
+CHARGE   NAI-B  O7N -0.9319
+CHARGE   NAI-B  C8A  0.5862
+CHARGE   NAI-B  N9A  -0.681
+CHARGE   NAI-B  HO2B  0.4081
+CHARGE   NAI-B  HO2D   0.406
+CHARGE   NAI-B  HO3B  0.3997
+CHARGE   NAI-B  HO3D  0.3941
+CHARGE   NAI-B  H1B  0.0897
+CHARGE   NAI-B  H1D  0.0605
+CHARGE   NAI-B  H2A  0.0313
+CHARGE   NAI-B  H2B  0.0778
+CHARGE   NAI-B  H2D  0.0723
+CHARGE   NAI-B  H3B  0.1119
+CHARGE   NAI-B  H2N  0.1385
+CHARGE   NAI-B  H3D  0.0822
+CHARGE   NAI-B  H4B  0.1118
+CHARGE   NAI-B  H4D  0.0624
+CHARGE   NAI-B  H4N  0.0344
+CHARGE   NAI-B  H4N  0.0344
+CHARGE   NAI-B  H5N  0.1138
+CHARGE   NAI-B  H6N  0.1577
+CHARGE   NAI-B  H8A  0.1328
+CHARGE   NAI-B  H5B1   0.028
+CHARGE   NAI-B  H5B2   0.028
+CHARGE   NAI-B  H5D1  0.0474
+CHARGE   NAI-B  H5D2  0.0474
+CHARGE   NAI-B  H6A1  0.4172
+CHARGE   NAI-B  H6A2  0.4172
+CHARGE   NAI-B  H7N1  0.3096
+
+CHARGE   NAI-1  PA   1.6113
+CHARGE   NAI-1  PN   1.5956
+CHARGE   NAI-1  C1B  0.3881
+CHARGE   NAI-1  C1D  0.4061
+CHARGE   NAI-1  N1A -0.6273
+CHARGE   NAI-1  N1N -0.5583
+CHARGE   NAI-1  O1A -0.8856
+CHARGE   NAI-1  O1N -0.8593
+CHARGE   NAI-1  C2A  0.2642
+CHARGE   NAI-1  C2B  0.0601
+CHARGE   NAI-1  C2D  0.0453
+CHARGE   NAI-1  C2N  0.1596
+CHARGE   NAI-1  O2A -0.8856
+CHARGE   NAI-1  O2B -0.5842
+CHARGE   NAI-1  O2D -0.5906
+CHARGE   NAI-1  O2N -0.8593
+CHARGE   NAI-1  C3B  0.1244
+CHARGE   NAI-1  C3D   0.123
+CHARGE   NAI-1  C3N -0.3141
+CHARGE   NAI-1  N3A -0.5289
+CHARGE   NAI-1  O3  -0.8111
+CHARGE   NAI-1  O3B -0.5809
+CHARGE   NAI-1  O3D -0.5696
+CHARGE   NAI-1  C4A  0.5545
+CHARGE   NAI-1  C4B  0.1103
+CHARGE   NAI-1  C4D  0.1131
+CHARGE   NAI-1  C4N  0.0373
+CHARGE   NAI-1  O4B -0.3768
+CHARGE   NAI-1  O4D -0.3868
+CHARGE   NAI-1  C5A -0.1482
+CHARGE   NAI-1  C5B  0.1938
+CHARGE   NAI-1  C5D  0.2042
+CHARGE   NAI-1  C5N -0.2508
+CHARGE   NAI-1  O5B -0.5666
+CHARGE   NAI-1  O5D -0.5819
+CHARGE   NAI-1  C6A  0.4701
+CHARGE   NAI-1  C6N  0.0602
+CHARGE   NAI-1  N6A -0.8326
+CHARGE   NAI-1  C7N  0.6894
+CHARGE   NAI-1  N7A -0.5467
+CHARGE   NAI-1  N7N -0.6827
+CHARGE   NAI-1  O7N -0.6707
+CHARGE   NAI-1  C8A  0.6321
+CHARGE   NAI-1  N9A -0.5908
+CHARGE   NAI-1  HO2B  0.4042
+CHARGE   NAI-1  HO2D  0.4026
+CHARGE   NAI-1  HO3B  0.4087
+CHARGE   NAI-1  HO3D  0.4014
+CHARGE   NAI-1  H1B   0.098
+CHARGE   NAI-1  H1D  0.0687
+CHARGE   NAI-1  H2A   0.214
+CHARGE   NAI-1  H2B  0.0729
+CHARGE   NAI-1  H2D  0.0552
+CHARGE   NAI-1  H3B  0.0816
+CHARGE   NAI-1  H2N  0.1568
+CHARGE   NAI-1  H3D  0.0592
+CHARGE   NAI-1  H4B  0.1249
+CHARGE   NAI-1  H4D  0.0936
+CHARGE   NAI-1  H4N   0.023
+CHARGE   NAI-1  H4N   0.023
+CHARGE   NAI-1  H5N  0.1485
+CHARGE   NAI-1  H6N   0.205
+CHARGE   NAI-1  H8A   0.217
+CHARGE   NAI-1  H5B1  0.0385
+CHARGE   NAI-1  H5B2  0.0385
+CHARGE   NAI-1  H5D1  0.0414
+CHARGE   NAI-1  H5D2  0.0414
+CHARGE   NAI-1  H6A1  0.4757
+CHARGE   NAI-1  H6A2  0.4757
+CHARGE   NAI-1  H7N1  0.3047
+CHARGE   NAI-1  H7N2  0.3047
+CHARGE   NAI-1  H72  0.4683
+
+CHARGE   NAI-C  PA   1.5903
+CHARGE   NAI-C  PN   1.5847
+CHARGE   NAI-C  C1B  0.4343
+CHARGE   NAI-C  C1D  0.3179
+CHARGE   NAI-C  N1A -0.8071
+CHARGE   NAI-C  N1N -0.5077
+CHARGE   NAI-C  O1A -0.8838
+CHARGE   NAI-C  O1N -0.8715
+CHARGE   NAI-C  C2A  0.6437
+CHARGE   NAI-C  C2B  0.0537
+CHARGE   NAI-C  C2D  0.3545
+CHARGE   NAI-C  C2N  0.1642
+CHARGE   NAI-C  O2A -0.8838
+CHARGE   NAI-C  O2B -0.5952
+CHARGE   NAI-C  O2D -0.8819
+CHARGE   NAI-C  O2N -0.8715
+CHARGE   NAI-C  C3B  0.0833
+CHARGE   NAI-C  C3D  0.0524
+CHARGE   NAI-C  C3N -0.3815
+CHARGE   NAI-C  N3A -0.7034
+CHARGE   NAI-C  O3  -0.8111
+CHARGE   NAI-C  O3B -0.5966
+CHARGE   NAI-C  O3D -0.6458
+CHARGE   NAI-C  C4A  0.5641
+CHARGE   NAI-C  C4B   0.117
+CHARGE   NAI-C  C4D   0.123
+CHARGE   NAI-C  C4N  0.0802
+CHARGE   NAI-C  O4B -0.3928
+CHARGE   NAI-C  O4D -0.4587
+CHARGE   NAI-C  C5A -0.1995
+CHARGE   NAI-C  C5B  0.1946
+CHARGE   NAI-C  C5D  0.1725
+CHARGE   NAI-C  C5N -0.3031
+CHARGE   NAI-C  O5B -0.5653
+CHARGE   NAI-C  O5D -0.5781
+CHARGE   NAI-C  C6A  0.7033
+CHARGE   NAI-C  C6N  0.0927
+CHARGE   NAI-C  N6A -0.9333
+CHARGE   NAI-C  C7N  0.7113
+CHARGE   NAI-C  N7A  -0.584
+CHARGE   NAI-C  N7N -0.7008
+CHARGE   NAI-C  O7N -0.6682
+CHARGE   NAI-C  C8A  0.5898
+CHARGE   NAI-C  N9A -0.6808
+CHARGE   NAI-C  HO2B  0.4029
+CHARGE   NAI-C  HO3B  0.3988
+CHARGE   NAI-C  HO3D  0.4147
+CHARGE   NAI-C  H1B  0.0897
+CHARGE   NAI-C  H1D  0.0324
+CHARGE   NAI-C  H2A  0.0301
+CHARGE   NAI-C  H2B  0.0785
+CHARGE   NAI-C  H2D   -0.03
+CHARGE   NAI-C  H3B  0.0853
+CHARGE   NAI-C  H2N  0.1568
+CHARGE   NAI-C  H3D  0.0684
+CHARGE   NAI-C  H4B  0.1189
+CHARGE   NAI-C  H4D   0.058
+CHARGE   NAI-C  H4N  0.0026
+CHARGE   NAI-C  H4N  0.0026
+CHARGE   NAI-C  H5N  0.1222
+CHARGE   NAI-C  H6N  0.1889
+CHARGE   NAI-C  H8A  0.1375
+CHARGE   NAI-C  H5B1  0.0294
+CHARGE   NAI-C  H5B2  0.0294
+CHARGE   NAI-C  H5D1  0.0287
+CHARGE   NAI-C  H5D2  0.0287
+CHARGE   NAI-C  H6A1  0.4128
+CHARGE   NAI-C  H6A2  0.4128
+CHARGE   NAI-C  H7N1  0.2889
+CHARGE   NAI-C  H7N2  0.2889
+
+# EXTRA energy for tautomers:
+EXTRA    NAI-a         0.003
+EXTRA    NAI-A         3.649
+EXTRA    NAI-B         3.649
+EXTRA    NAI-1         4.984
+EXTRA    NAI-C         5.431
+
