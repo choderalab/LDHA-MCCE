@@ -15,10 +15,10 @@ Input and Output:
 combined_fixed.pdb   (INPDB)
 
 Steps:
-t    (DO_PREMCCE)
-t    (DO_ROTAMERS)
-t    (DO_ENERGY)
-f    (DO_MONTE)
+f    (DO_PREMCCE)
+f    (DO_ROTAMERS)
+f    (DO_ENERGY)
+t    (DO_MONTE)
 ==============================================================================
 0        sidechain optimization: 0=mcce, 1=P.Comte's GA,    (SIDECHAIN_OPT)
 		 2=mcce + MHD's pruning function
