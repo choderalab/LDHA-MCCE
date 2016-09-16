@@ -1,0 +1,65 @@
+ _________________________MCCE 3.5____________________________
+|	   						      |
+|    MCCE (Multi-Conformation Continuum Electrostatics)       |
+|	is a program developed at Marilyn Gunner's lab.	      |
+|	MCCE is a biophysics simulation program combining     |
+|	continuum electrostatics and molecular mechanics.     |
+|	In this program, the protein side chain motions are   |
+|	simulated explicitly while the dielectric effect of   |
+|	solvent and bulk protein material is modeled by	      |
+|	continuum electrostatics.			      |
+|	MCCE can calculate residue pka, cofactor Em and       |
+|	protein PI in protein-solvent systems, and more:      |
+|							      |
+|	 - Protein structural responses to changes in charge  |
+|	 - Changes in charge state of ionizable residues due  |
+|	   to structural changes in the protein		      |
+|	 - The structural and ionization changes caused by    |
+|	   changes in solution pH or Eh			      |
+|	 - Find the location and stoichiometry of proton      |
+|	   transfers coupled to electron transfer	      |
+|	 - Make side chain rotomer packing predictions as     |
+|	   a function of pH				      |
+|							      |
+|	For questions and help, visit                         |
+|		https://sites.google.com/site/mccewiki/home   |
+|		  October 2015, by MCCE Development Team      |
+|							      |
+|_________________________        ____________________________|
+                          MCCE 3.5                          
+
+Last Updates:                                              
+July 2016, Yifan's monte carlo no longer needs step3_out.pdb directory (fixed)
+July 2016, Removed PASCAL COMTE GENETIC ALGORITHM from this version
+Sept 2016, Added charged ligands to sum_crg.out.
+Wed Sep 14 16:31:31 2016
+Step 0. Initialize enviroment
+   Load run control file "run.prm"...
+   Done
+
+   Tentatively load local param file "new.tpl"...   No such file, ignore.
+   Done
+
+   Load parameters from directory "../param04" ... 
+
+   In file ../param04/hmc.tpl, parameter "CONNECT  HMC01  CAB sp2       0     C3B 0     CBB LIG   SG" is already loaded somewhere else.
+   Try delete this entry and run MCCE again
+   Done
+
+   Load linear free energy correction parameters from "/home/mcce/mcce2.5.1/extra.tpl".../home/mcce/mcce2.5.1/extra.tpl
+   File loaded.
+   Done
+
+Step 0 Done.
+
+Not doing "Step 1. Test and format structral file"
+
+Not doing "Step 2. Make multi side chain conformers"
+
+Not doing "Step 3. Compute energy lookup table"
+
+Step 4. Yifan Monte Carlo Sampling
+   Load pairwise interactions ...
+energies.opp not found
+   File energies.opp not found
+   FATAL: pairwise interaction not loaded
